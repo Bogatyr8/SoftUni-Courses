@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\bin\Debug\netcoreapp3.1\01. Sort Numbers.exe
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\bin\Debug\netcoreapp3.1\01. Sort Numbers.deps.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\bin\Debug\netcoreapp3.1\01. Sort Numbers.runtimeconfig.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\bin\Debug\netcoreapp3.1\01. Sort Numbers.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\bin\Debug\netcoreapp3.1\01. Sort Numbers.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\bin\Debug\netcoreapp3.1\01. Sort Numbers.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\obj\Debug\netcoreapp3.1\01. Sort Numbers.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\obj\Debug\netcoreapp3.1\01. Sort Numbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\obj\Debug\netcoreapp3.1\01. Sort Numbers.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\obj\Debug\netcoreapp3.1\01. Sort Numbers.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\obj\Debug\netcoreapp3.1\01. Sort Numbers.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\obj\Debug\netcoreapp3.1\01. Sort Numbers.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\obj\Debug\netcoreapp3.1\01. Sort Numbers.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\01. Sort Numbers\obj\Debug\netcoreapp3.1\01. Sort Numbers.genruntimeconfig.cache

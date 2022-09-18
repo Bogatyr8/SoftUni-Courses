@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\bin\Debug\netcoreapp3.1\11. Orders.exe
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\bin\Debug\netcoreapp3.1\11. Orders.deps.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\bin\Debug\netcoreapp3.1\11. Orders.runtimeconfig.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\bin\Debug\netcoreapp3.1\11. Orders.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\bin\Debug\netcoreapp3.1\11. Orders.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\bin\Debug\netcoreapp3.1\11. Orders.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\obj\Debug\netcoreapp3.1\11. Orders.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\obj\Debug\netcoreapp3.1\11. Orders.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\obj\Debug\netcoreapp3.1\11. Orders.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\obj\Debug\netcoreapp3.1\11. Orders.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\obj\Debug\netcoreapp3.1\11. Orders.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\obj\Debug\netcoreapp3.1\11. Orders.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\obj\Debug\netcoreapp3.1\11. Orders.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\11. Orders\obj\Debug\netcoreapp3.1\11. Orders.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\08. Triangle of Numbers\bin\Debug\netcoreapp3.1\08. Triangle of Numbers2.exe
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\08. Triangle of Numbers\bin\Debug\netcoreapp3.1\08. Triangle of Numbers2.deps.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\08. Triangle of Numbers\bin\Debug\netcoreapp3.1\08. Triangle of Numbers2.runtimeconfig.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\08. Triangle of Numbers\bin\Debug\netcoreapp3.1\08. Triangle of Numbers2.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\08. Triangle of Numbers\bin\Debug\netcoreapp3.1\08. Triangle of Numbers2.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\08. Triangle of Numbers\bin\Debug\netcoreapp3.1\08. Triangle of Numbers2.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\08. Triangle of Numbers\obj\Debug\netcoreapp3.1\08. Triangle of Numbers2.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\08. Triangle of Numbers\obj\Debug\netcoreapp3.1\08. Triangle of Numbers2.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\08. Triangle of Numbers\obj\Debug\netcoreapp3.1\08. Triangle of Numbers2.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\08. Triangle of Numbers\obj\Debug\netcoreapp3.1\08. Triangle of Numbers2.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\08. Triangle of Numbers\obj\Debug\netcoreapp3.1\08. Triangle of Numbers2.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\08. Triangle of Numbers\obj\Debug\netcoreapp3.1\08. Triangle of Numbers2.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\08. Triangle of Numbers\obj\Debug\netcoreapp3.1\08. Triangle of Numbers2.genruntimeconfig.cache

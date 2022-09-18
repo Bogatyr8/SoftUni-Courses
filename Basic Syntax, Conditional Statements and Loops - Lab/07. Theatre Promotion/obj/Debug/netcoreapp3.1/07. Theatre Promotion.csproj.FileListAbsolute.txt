@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\bin\Debug\netcoreapp3.1\07. Theatre Promotion.exe
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\bin\Debug\netcoreapp3.1\07. Theatre Promotion.deps.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\bin\Debug\netcoreapp3.1\07. Theatre Promotion.runtimeconfig.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\bin\Debug\netcoreapp3.1\07. Theatre Promotion.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\bin\Debug\netcoreapp3.1\07. Theatre Promotion.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\bin\Debug\netcoreapp3.1\07. Theatre Promotion.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\obj\Debug\netcoreapp3.1\07. Theatre Promotion.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\obj\Debug\netcoreapp3.1\07. Theatre Promotion.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\obj\Debug\netcoreapp3.1\07. Theatre Promotion.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\obj\Debug\netcoreapp3.1\07. Theatre Promotion.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\obj\Debug\netcoreapp3.1\07. Theatre Promotion.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\obj\Debug\netcoreapp3.1\07. Theatre Promotion.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\obj\Debug\netcoreapp3.1\07. Theatre Promotion.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\obj\Debug\netcoreapp3.1\07. Theatre Promotion.genruntimeconfig.cache

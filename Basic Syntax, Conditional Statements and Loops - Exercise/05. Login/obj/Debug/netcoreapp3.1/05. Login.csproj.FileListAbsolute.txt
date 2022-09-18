@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\bin\Debug\netcoreapp3.1\05. Login.exe
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\bin\Debug\netcoreapp3.1\05. Login.deps.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\bin\Debug\netcoreapp3.1\05. Login.runtimeconfig.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\bin\Debug\netcoreapp3.1\05. Login.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\bin\Debug\netcoreapp3.1\05. Login.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\bin\Debug\netcoreapp3.1\05. Login.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\obj\Debug\netcoreapp3.1\05. Login.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\obj\Debug\netcoreapp3.1\05. Login.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\obj\Debug\netcoreapp3.1\05. Login.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\obj\Debug\netcoreapp3.1\05. Login.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\obj\Debug\netcoreapp3.1\05. Login.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\obj\Debug\netcoreapp3.1\05. Login.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\obj\Debug\netcoreapp3.1\05. Login.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\05. Login\obj\Debug\netcoreapp3.1\05. Login.genruntimeconfig.cache

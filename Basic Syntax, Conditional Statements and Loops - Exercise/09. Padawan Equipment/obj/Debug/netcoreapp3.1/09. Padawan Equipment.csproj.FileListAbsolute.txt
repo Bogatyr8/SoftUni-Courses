@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\bin\Debug\netcoreapp3.1\09. Padawan Equipment.exe
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\bin\Debug\netcoreapp3.1\09. Padawan Equipment.deps.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\bin\Debug\netcoreapp3.1\09. Padawan Equipment.runtimeconfig.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\bin\Debug\netcoreapp3.1\09. Padawan Equipment.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\bin\Debug\netcoreapp3.1\09. Padawan Equipment.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\bin\Debug\netcoreapp3.1\09. Padawan Equipment.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\obj\Debug\netcoreapp3.1\09. Padawan Equipment.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\obj\Debug\netcoreapp3.1\09. Padawan Equipment.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\obj\Debug\netcoreapp3.1\09. Padawan Equipment.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\obj\Debug\netcoreapp3.1\09. Padawan Equipment.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\obj\Debug\netcoreapp3.1\09. Padawan Equipment.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\obj\Debug\netcoreapp3.1\09. Padawan Equipment.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\obj\Debug\netcoreapp3.1\09. Padawan Equipment.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\09. Padawan Equipment\obj\Debug\netcoreapp3.1\09. Padawan Equipment.genruntimeconfig.cache

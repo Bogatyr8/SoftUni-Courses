@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\bin\Debug\netcoreapp3.1\07. Vending Machine.exe
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\bin\Debug\netcoreapp3.1\07. Vending Machine.deps.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\bin\Debug\netcoreapp3.1\07. Vending Machine.runtimeconfig.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\bin\Debug\netcoreapp3.1\07. Vending Machine.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\bin\Debug\netcoreapp3.1\07. Vending Machine.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\bin\Debug\netcoreapp3.1\07. Vending Machine.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\obj\Debug\netcoreapp3.1\07. Vending Machine.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\obj\Debug\netcoreapp3.1\07. Vending Machine.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\obj\Debug\netcoreapp3.1\07. Vending Machine.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\obj\Debug\netcoreapp3.1\07. Vending Machine.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\obj\Debug\netcoreapp3.1\07. Vending Machine.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\obj\Debug\netcoreapp3.1\07. Vending Machine.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\obj\Debug\netcoreapp3.1\07. Vending Machine.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\07. Vending Machine\obj\Debug\netcoreapp3.1\07. Vending Machine.genruntimeconfig.cache

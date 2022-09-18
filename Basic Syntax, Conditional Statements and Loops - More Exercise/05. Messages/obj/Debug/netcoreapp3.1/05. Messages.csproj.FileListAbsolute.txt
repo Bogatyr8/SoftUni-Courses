@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\obj\Debug\netcoreapp3.1\05. Messages.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\obj\Debug\netcoreapp3.1\05. Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\obj\Debug\netcoreapp3.1\05. Messages.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\obj\Debug\netcoreapp3.1\05. Messages.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\obj\Debug\netcoreapp3.1\05. Messages.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\bin\Debug\netcoreapp3.1\05. Messages.exe
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\bin\Debug\netcoreapp3.1\05. Messages.deps.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\bin\Debug\netcoreapp3.1\05. Messages.runtimeconfig.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\bin\Debug\netcoreapp3.1\05. Messages.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\bin\Debug\netcoreapp3.1\05. Messages.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\bin\Debug\netcoreapp3.1\05. Messages.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\obj\Debug\netcoreapp3.1\05. Messages.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\obj\Debug\netcoreapp3.1\05. Messages.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - More Exercise\05. Messages\obj\Debug\netcoreapp3.1\05. Messages.genruntimeconfig.cache

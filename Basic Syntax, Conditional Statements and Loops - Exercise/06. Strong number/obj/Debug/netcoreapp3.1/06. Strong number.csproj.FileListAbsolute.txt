@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\obj\Debug\netcoreapp3.1\06. Strong number.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\obj\Debug\netcoreapp3.1\06. Strong number.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\obj\Debug\netcoreapp3.1\06. Strong number.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\obj\Debug\netcoreapp3.1\06. Strong number.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\obj\Debug\netcoreapp3.1\06. Strong number.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\bin\Debug\netcoreapp3.1\06. Strong number.exe
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\bin\Debug\netcoreapp3.1\06. Strong number.deps.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\bin\Debug\netcoreapp3.1\06. Strong number.runtimeconfig.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\bin\Debug\netcoreapp3.1\06. Strong number.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\bin\Debug\netcoreapp3.1\06. Strong number.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\bin\Debug\netcoreapp3.1\06. Strong number.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\obj\Debug\netcoreapp3.1\06. Strong number.dll
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\obj\Debug\netcoreapp3.1\06. Strong number.pdb
+C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Exercise\06. Strong number\obj\Debug\netcoreapp3.1\06. Strong number.genruntimeconfig.cache
