@@ -34,7 +34,10 @@ namespace _09._Spice_Must_Flow
                 storedSpice -= 26;
                 yield -= 10;
             }
-            storedSpice -= 26;
+            if (storedSpice > 0)
+            {
+                storedSpice -= 26;
+            }
             Console.WriteLine(dayCounter);
             Console.WriteLine(storedSpice);
         }
