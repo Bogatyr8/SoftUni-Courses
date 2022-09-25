@@ -13,7 +13,7 @@ namespace _05._Print_Part_Of_ASCII_Table
             int lastIndex = int.Parse(Console.ReadLine());
             for (int i = startIndex; i <= lastIndex; i++)
             {
-                Console.Write((char)i);
+                Console.Write($"{(char)i} ");
             }
         }
     }
