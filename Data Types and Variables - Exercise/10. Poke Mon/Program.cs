@@ -43,15 +43,12 @@ namespace _10._Poke_Mon
             int originalN = n;
             while (n >= m)
             {
+                n -= m;
+                targetCount++;
                 bool isThereExtreemeExhaustion = n == originalN / 2 && y != 0;
                 if (isThereExtreemeExhaustion)
                 {
                     n /= y;
-                }
-                if (!isThereExtreemeExhaustion)
-                {
-                    n -= m;
-                    targetCount++;
                 }
             }
             Console.WriteLine(n);
