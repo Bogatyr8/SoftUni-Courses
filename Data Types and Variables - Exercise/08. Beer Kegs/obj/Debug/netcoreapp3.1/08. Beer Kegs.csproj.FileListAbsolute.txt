@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\bin\Debug\netcoreapp3.1\08. Beer Kegs.exe
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\bin\Debug\netcoreapp3.1\08. Beer Kegs.deps.json
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\bin\Debug\netcoreapp3.1\08. Beer Kegs.runtimeconfig.json
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\bin\Debug\netcoreapp3.1\08. Beer Kegs.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\bin\Debug\netcoreapp3.1\08. Beer Kegs.dll
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\bin\Debug\netcoreapp3.1\08. Beer Kegs.pdb
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\obj\Debug\netcoreapp3.1\08. Beer Kegs.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\obj\Debug\netcoreapp3.1\08. Beer Kegs.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\obj\Debug\netcoreapp3.1\08. Beer Kegs.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\obj\Debug\netcoreapp3.1\08. Beer Kegs.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\obj\Debug\netcoreapp3.1\08. Beer Kegs.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\obj\Debug\netcoreapp3.1\08. Beer Kegs.dll
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\obj\Debug\netcoreapp3.1\08. Beer Kegs.pdb
+C:\CSharp\Fundamentals\Data Types and Variables - Exercise\08. Beer Kegs\obj\Debug\netcoreapp3.1\08. Beer Kegs.genruntimeconfig.cache
