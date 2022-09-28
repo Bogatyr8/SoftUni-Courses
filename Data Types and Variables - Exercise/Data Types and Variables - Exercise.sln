@@ -23,9 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09. Spice Must Flow", "09. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Poke Mon", "10. Poke Mon\10. Poke Mon.csproj", "{7D9C4093-77B1-4BD2-BCE3-8AF1AE8AA75A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Snowballs", "11. Snowballs\11. Snowballs.csproj", "{95636BFF-B6A0-4BC6-A458-19F1B019FEA4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Snowballs - 2", "11. Snowballs - 2\11. Snowballs - 2.csproj", "{B68CB4C6-7BEB-4173-9D28-E9D7FDCBBAAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11. Snowballs", "11. Snowballs - 2\11. Snowballs.csproj", "{B68CB4C6-7BEB-4173-9D28-E9D7FDCBBAAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,10 +71,6 @@ Global
 		{7D9C4093-77B1-4BD2-BCE3-8AF1AE8AA75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D9C4093-77B1-4BD2-BCE3-8AF1AE8AA75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D9C4093-77B1-4BD2-BCE3-8AF1AE8AA75A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{95636BFF-B6A0-4BC6-A458-19F1B019FEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95636BFF-B6A0-4BC6-A458-19F1B019FEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95636BFF-B6A0-4BC6-A458-19F1B019FEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95636BFF-B6A0-4BC6-A458-19F1B019FEA4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B68CB4C6-7BEB-4173-9D28-E9D7FDCBBAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B68CB4C6-7BEB-4173-9D28-E9D7FDCBBAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B68CB4C6-7BEB-4173-9D28-E9D7FDCBBAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU

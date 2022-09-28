@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    ".NETCoreApp,Version=v3.1": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": []
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\Semeistvo\\.nuget\\packages\\": {}
@@ -13,26 +13,26 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CSharp\\Fundamentals\\Data Types and Variables - Exercise\\11. Snowballs - 2\\11. Snowballs.csproj",
-      "projectName": "11. Snowballs",
-      "projectPath": "C:\\CSharp\\Fundamentals\\Data Types and Variables - Exercise\\11. Snowballs - 2\\11. Snowballs.csproj",
+      "projectUniqueName": "C:\\CSharp\\Fundamentals\\Data Types and Variables - More Exercise\\01. Data Type Finder\\01. Data Type Finder.csproj",
+      "projectName": "01. Data Type Finder",
+      "projectPath": "C:\\CSharp\\Fundamentals\\Data Types and Variables - More Exercise\\01. Data Type Finder\\01. Data Type Finder.csproj",
       "packagesPath": "C:\\Users\\Semeistvo\\.nuget\\packages\\",
-      "outputPath": "C:\\CSharp\\Fundamentals\\Data Types and Variables - Exercise\\11. Snowballs - 2\\obj\\",
+      "outputPath": "C:\\CSharp\\Fundamentals\\Data Types and Variables - More Exercise\\01. Data Type Finder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Semeistvo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -43,8 +43,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",

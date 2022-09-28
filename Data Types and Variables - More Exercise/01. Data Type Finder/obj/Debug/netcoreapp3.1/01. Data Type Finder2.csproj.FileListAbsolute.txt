@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\bin\Debug\netcoreapp3.1\01. Data Type Finder2.exe
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\bin\Debug\netcoreapp3.1\01. Data Type Finder2.deps.json
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\bin\Debug\netcoreapp3.1\01. Data Type Finder2.runtimeconfig.json
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\bin\Debug\netcoreapp3.1\01. Data Type Finder2.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\bin\Debug\netcoreapp3.1\01. Data Type Finder2.dll
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\bin\Debug\netcoreapp3.1\01. Data Type Finder2.pdb
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\obj\Debug\netcoreapp3.1\01. Data Type Finder2.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\obj\Debug\netcoreapp3.1\01. Data Type Finder2.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\obj\Debug\netcoreapp3.1\01. Data Type Finder2.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\obj\Debug\netcoreapp3.1\01. Data Type Finder2.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\obj\Debug\netcoreapp3.1\01. Data Type Finder2.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\obj\Debug\netcoreapp3.1\01. Data Type Finder2.dll
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\obj\Debug\netcoreapp3.1\01. Data Type Finder2.pdb
+C:\CSharp\Fundamentals\Data Types and Variables - More Exercise\01. Data Type Finder\obj\Debug\netcoreapp3.1\01. Data Type Finder2.genruntimeconfig.cache
