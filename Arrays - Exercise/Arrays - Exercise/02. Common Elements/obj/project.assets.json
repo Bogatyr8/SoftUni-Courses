@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CSharp\\Fundamentals\\Arrays - Exercise\\01. Train\\01. Train.csproj",
-      "projectName": "01. Train",
-      "projectPath": "C:\\CSharp\\Fundamentals\\Arrays - Exercise\\01. Train\\01. Train.csproj",
+      "projectUniqueName": "C:\\CSharp\\Fundamentals\\Arrays - Exercise\\Arrays - Exercise\\02. Common Elements\\02. Common Elements.csproj",
+      "projectName": "02. Common Elements",
+      "projectPath": "C:\\CSharp\\Fundamentals\\Arrays - Exercise\\Arrays - Exercise\\02. Common Elements\\02. Common Elements.csproj",
       "packagesPath": "C:\\Users\\Semeistvo\\.nuget\\packages\\",
-      "outputPath": "C:\\CSharp\\Fundamentals\\Arrays - Exercise\\01. Train\\obj\\",
+      "outputPath": "C:\\CSharp\\Fundamentals\\Arrays - Exercise\\Arrays - Exercise\\02. Common Elements\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Semeistvo\\AppData\\Roaming\\NuGet\\NuGet.Config",
