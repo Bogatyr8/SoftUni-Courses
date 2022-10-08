@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\bin\Debug\netcoreapp3.1\04. Array Rotation.exe
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\bin\Debug\netcoreapp3.1\04. Array Rotation.deps.json
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\bin\Debug\netcoreapp3.1\04. Array Rotation.runtimeconfig.json
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\bin\Debug\netcoreapp3.1\04. Array Rotation.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\bin\Debug\netcoreapp3.1\04. Array Rotation.dll
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\bin\Debug\netcoreapp3.1\04. Array Rotation.pdb
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\obj\Debug\netcoreapp3.1\04. Array Rotation.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\obj\Debug\netcoreapp3.1\04. Array Rotation.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\obj\Debug\netcoreapp3.1\04. Array Rotation.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\obj\Debug\netcoreapp3.1\04. Array Rotation.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\obj\Debug\netcoreapp3.1\04. Array Rotation.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\obj\Debug\netcoreapp3.1\04. Array Rotation.dll
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\obj\Debug\netcoreapp3.1\04. Array Rotation.pdb
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\04. Array Rotation\obj\Debug\netcoreapp3.1\04. Array Rotation.genruntimeconfig.cache

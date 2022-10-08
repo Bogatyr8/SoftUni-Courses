@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Common Elements", "02. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Zig-Zag Arrays", "03. Zig-Zag Arrays\03. Zig-Zag Arrays.csproj", "{776DFAD6-F23E-47CC-92DD-EAB416CC8190}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Array Rotation", "04. Array Rotation\04. Array Rotation.csproj", "{1F262ADC-EFEE-463D-BE77-0F11F0037196}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{776DFAD6-F23E-47CC-92DD-EAB416CC8190}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{776DFAD6-F23E-47CC-92DD-EAB416CC8190}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{776DFAD6-F23E-47CC-92DD-EAB416CC8190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F262ADC-EFEE-463D-BE77-0F11F0037196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F262ADC-EFEE-463D-BE77-0F11F0037196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F262ADC-EFEE-463D-BE77-0F11F0037196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F262ADC-EFEE-463D-BE77-0F11F0037196}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
