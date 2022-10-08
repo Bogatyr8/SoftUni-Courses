@@ -25,16 +25,7 @@ namespace _04._Array_Rotation
             int[] output = new int[input.Length];
             for (int i = 0; i < input.Length; i++)
             {
-                output[i] = input[Math.Abs(input.Length - i - (n % input.Length)) % input.Length];
-                //output[i] = input[(2 * input.Length - i - (n % input.Length)) % input.Length];
-                //if (i > n % input.Length)
-                //{
-                //    output[i] = input[Math.Abs((input.Length - i) - (n % input.Length))];
-                //}
-                //else
-                //{
-                //    output[i] = input[(input.Length + i) - (n % input.Length) - 1];
-                //}
+                output[i] = input[(input.Length + i + (n % input.Length)) % input.Length];
             }
             Console.WriteLine(string.Join(" ",output));
         }
