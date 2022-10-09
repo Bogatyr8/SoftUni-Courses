@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\bin\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.exe
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\bin\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.deps.json
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\bin\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.runtimeconfig.json
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\bin\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\bin\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.dll
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\bin\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.pdb
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\obj\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\obj\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\obj\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\obj\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\obj\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\obj\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.dll
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\obj\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.pdb
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\07. Max Sequence of Equal Elements\obj\Debug\netcoreapp3.1\07. Max Sequence of Equal Elements.genruntimeconfig.cache
