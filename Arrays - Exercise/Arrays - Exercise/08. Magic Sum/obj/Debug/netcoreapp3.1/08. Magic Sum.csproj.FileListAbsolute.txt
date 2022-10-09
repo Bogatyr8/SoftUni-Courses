@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\bin\Debug\netcoreapp3.1\08. Magic Sum.exe
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\bin\Debug\netcoreapp3.1\08. Magic Sum.deps.json
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\bin\Debug\netcoreapp3.1\08. Magic Sum.runtimeconfig.json
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\bin\Debug\netcoreapp3.1\08. Magic Sum.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\bin\Debug\netcoreapp3.1\08. Magic Sum.dll
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\bin\Debug\netcoreapp3.1\08. Magic Sum.pdb
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\obj\Debug\netcoreapp3.1\08. Magic Sum.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\obj\Debug\netcoreapp3.1\08. Magic Sum.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\obj\Debug\netcoreapp3.1\08. Magic Sum.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\obj\Debug\netcoreapp3.1\08. Magic Sum.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\obj\Debug\netcoreapp3.1\08. Magic Sum.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\obj\Debug\netcoreapp3.1\08. Magic Sum.dll
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\obj\Debug\netcoreapp3.1\08. Magic Sum.pdb
+C:\CSharp\Fundamentals\Arrays - Exercise\Arrays - Exercise\08. Magic Sum\obj\Debug\netcoreapp3.1\08. Magic Sum.genruntimeconfig.cache
