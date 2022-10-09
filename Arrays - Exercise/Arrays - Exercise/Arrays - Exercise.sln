@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Array Rotation", "04. A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Top Integers", "05. Top Integers\05. Top Integers.csproj", "{582CF5F9-5487-4EAF-95C7-CC7E291144F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Equal Sum", "06. Equal Sum\06. Equal Sum.csproj", "{5B117229-7923-4C8B-9B2C-698BE2DB378C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{582CF5F9-5487-4EAF-95C7-CC7E291144F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{582CF5F9-5487-4EAF-95C7-CC7E291144F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{582CF5F9-5487-4EAF-95C7-CC7E291144F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B117229-7923-4C8B-9B2C-698BE2DB378C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B117229-7923-4C8B-9B2C-698BE2DB378C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B117229-7923-4C8B-9B2C-698BE2DB378C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B117229-7923-4C8B-9B2C-698BE2DB378C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
