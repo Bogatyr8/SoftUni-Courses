@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Numerics;
 
 namespace _08._Magic_Sum
 {
@@ -9,15 +10,15 @@ namespace _08._Magic_Sum
         {
             //Create a program, which prints all unique pairs in an array of integers whose sum is equal to a
             //given number.
-            int[] input = Console.ReadLine()
+            BigInteger[] input = Console.ReadLine()
                     .Split()
-                    .Select(int.Parse)
+                    .Select(BigInteger.Parse)
                     .ToArray();
-            int entryValue = int.Parse(Console.ReadLine());
-            int[] dualValue = new int[2];
+            BigInteger entryValue = BigInteger.Parse(Console.ReadLine());
+            BigInteger[] dualValue = new BigInteger[2];
             for (int i = 0; i < input.Length; i++)
             {
-                for (int j = i; j < input.Length; j++)
+                for (int j = i + 1; j < input.Length; j++)
                 {
                     if ((input[i] + input[j]) == entryValue)
                     {

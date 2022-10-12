@@ -18,7 +18,7 @@ namespace _04._Array_Rotation
             //2 4 15 31                 4 15 31 2                   
             //5   
             int[] input = Console.ReadLine()
-                .Split()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries) // removes empty entries
                 .Select(int.Parse)
                 .ToArray();
             int n = int.Parse(Console.ReadLine());

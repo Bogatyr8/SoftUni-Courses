@@ -11,13 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Zig-Zag Arrays", "03. Z
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Array Rotation", "04. Array Rotation\04. Array Rotation.csproj", "{1F262ADC-EFEE-463D-BE77-0F11F0037196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Top Integers", "05. Top Integers\05. Top Integers.csproj", "{582CF5F9-5487-4EAF-95C7-CC7E291144F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Top Integers", "05. Top Integers\05. Top Integers.csproj", "{582CF5F9-5487-4EAF-95C7-CC7E291144F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Equal Sum", "06. Equal Sum\06. Equal Sum.csproj", "{5B117229-7923-4C8B-9B2C-698BE2DB378C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Equal Sum", "06. Equal Sum\06. Equal Sum.csproj", "{5B117229-7923-4C8B-9B2C-698BE2DB378C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Max Sequence of Equal Elements", "07. Max Sequence of Equal Elements\07. Max Sequence of Equal Elements.csproj", "{9F33EA1F-2FDB-4ADF-9E20-BFF380E15758}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Max Sequence of Equal Elements", "07. Max Sequence of Equal Elements\07. Max Sequence of Equal Elements.csproj", "{9F33EA1F-2FDB-4ADF-9E20-BFF380E15758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Magic Sum", "08. Magic Sum\08. Magic Sum.csproj", "{E856D65D-FB72-4E1B-A2ED-F22B5BF1D055}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Magic Sum", "08. Magic Sum\08. Magic Sum.csproj", "{E856D65D-FB72-4E1B-A2ED-F22B5BF1D055}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09. Kamino Factory", "09. Kamino Factory\09. Kamino Factory.csproj", "{49DCF7E5-8686-4556-96DF-7C6018420745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{E856D65D-FB72-4E1B-A2ED-F22B5BF1D055}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E856D65D-FB72-4E1B-A2ED-F22B5BF1D055}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E856D65D-FB72-4E1B-A2ED-F22B5BF1D055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49DCF7E5-8686-4556-96DF-7C6018420745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DCF7E5-8686-4556-96DF-7C6018420745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DCF7E5-8686-4556-96DF-7C6018420745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DCF7E5-8686-4556-96DF-7C6018420745}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
