@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Numerics;
 
 namespace _10._LadyBugs
 {
@@ -31,20 +32,20 @@ namespace _10._LadyBugs
 //•	The ladybug indexes will be in the range[-2, 147, 483, 647 … 2, 147, 483, 647]
 //•	The number of commands will be in the range[0 … 100] 
 //•	The fly length will be in the range[-2, 147, 483, 647 … 2, 147, 483, 647]
-            int fieldSize = int.Parse(Console.ReadLine());
-            string ladybirdsInput = " " + Console.ReadLine();
+            long fieldSize = long.Parse(Console.ReadLine());
+            string ladybirdsInput = Console.ReadLine() + " ";
 
-            int[] field = new int[fieldSize];
+            long[] field = new long[fieldSize];
             if (ladybirdsInput != " ")
             {
-                int[] ladybirds = ladybirdsInput
-                        .Split(" ")
-                        .Select(int.Parse)
+                long[] ladybirds = ladybirdsInput
+                        .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                        .Select(long.Parse)
                         .ToArray();
-                for (int i = 0; i < ladybirds.Length; i++)
+                for (long i = 0; i < ladybirds.Length; i++)
                 {
-                    int ladybirdIndex = 0;
-                    if (ladybirds[i] < fieldSize)
+                    long ladybirdIndex = 0;
+                    if (ladybirds[i] < fieldSize && ladybirds[i] >= 0)
                     {
                         ladybirdIndex = ladybirds[i];
                         field[ladybirdIndex] = 1;
@@ -55,74 +56,86 @@ namespace _10._LadyBugs
             while (commandInput != "end")
             {
                 string[] command = commandInput.Split(" ");
-                int ladybirdLocation = int.Parse(command[0]);
-                int ladybirdSpeed = int.Parse(command[2]);
+                long ladybirdLocation = long.Parse(command[0]);
+                long ladybirdSpeed = long.Parse(command[2]);
                 string ladybirsDirection = command[1];
-                int movement = 0;
+                long movement = 0;
                 switch (ladybirsDirection)
                 {
                     case "left": // Going left
-                        movement = ladybirdLocation - ladybirdSpeed;
-                        field[ladybirdLocation] = 0;
-                        if (movement < 0) // If movement exceeds the boundaries of field
+                        if (ladybirdLocation >= 0 && ladybirdLocation < field.Length)
                         {
-                            commandInput = Console.ReadLine();
-                            continue;
-                        }
-                        else // If movement is within boundaries of field
-                        {
-                            while (!(field[movement] == 0 && movement >= 0)) // Keep moving until clear, then settle
+                            if (field[ladybirdLocation] == 1)
                             {
-                                if (field[movement] == 1)  // Is the place already occupied? Yes
+                                movement = ladybirdLocation - ladybirdSpeed;
+                                field[ladybirdLocation] = 0;
+                                if (movement < 0) // If movement exceeds the boundaries of field
                                 {
-                                    movement -= ladybirdSpeed;
-
-                                    if (movement < 0)
-                                    {
-                                        break;
-                                    }
-                                }
-                                else
-                                {
-                                    field[movement] = 1;
+                                    commandInput = Console.ReadLine();
                                     continue;
                                 }
-                            }
-                            if (movement >= 0)
-                            {
-                                field[movement] = 1;
+                                else // If movement is within boundaries of field
+                                {
+                                    while (!(field[movement] == 0 && movement >= 0)) // Keep moving until clear, then settle
+                                    {
+                                        if (field[movement] == 1)  // Is the place already occupied? Yes
+                                        {
+                                            movement -= ladybirdSpeed;
+
+                                            if (movement < 0)
+                                            {
+                                                break;
+                                            }
+                                        }
+                                        else
+                                        {
+                                            field[movement] = 1;
+                                            continue;
+                                        }
+                                    }
+                                    if (movement >= 0)
+                                    {
+                                        field[movement] = 1;
+                                    }
+                                }
                             }
                         }
                         break;
                     case "right":
-                        movement = ladybirdLocation + ladybirdSpeed;
-                        field[ladybirdLocation] = 0;
-                        if (movement >= fieldSize) // If movement exceeds the boundaries of field
+                        if (ladybirdLocation >= 0 && ladybirdLocation < field.Length)
                         {
-                            commandInput = Console.ReadLine();
-                            continue;
-                        }
-                        else // If movement is within boundaries of field
-                        {
-                            while (!(field[movement] == 0 && movement < fieldSize)) // Keep moving until clear, then settle
+                            if (field[ladybirdLocation] == 1)
                             {
-                                if (field[movement] == 1)  // Is the place already occupied? Yes
+                                movement = ladybirdLocation + ladybirdSpeed;
+                                field[ladybirdLocation] = 0;
+                                if (movement >= fieldSize) // If movement exceeds the boundaries of field
                                 {
-                                    movement += ladybirdSpeed;
-                                    if (movement == fieldSize)
-                                    {
-                                        break;
-                                    }
-                                }
-                                else
-                                {
-                                    field[movement] = 1;
+                                    commandInput = Console.ReadLine();
                                     continue;
                                 }
-                            }
-                            if (movement < fieldSize)
-                            {
-                                field[movement] = 1;
+                                else // If movement is within boundaries of field
+                                {
+                                    while (!(field[movement] == 0 && movement < fieldSize)) // Keep moving until clear, then settle
+                                    {
+                                        if (field[movement] == 1)  // Is the place already occupied? Yes
+                                        {
+                                            movement += ladybirdSpeed;
+                                            if (movement == fieldSize)
+                                            {
+                                                break;
+                                            }
+                                        }
+                                        else
+                                        {
+                                            field[movement] = 1;
+                                            continue;
+                                        }
+                                    }
+                                    if (movement < fieldSize)
+                                    {
+                                        field[movement] = 1;
+                                    }
+                                }
                             }
                         }
                         break;
