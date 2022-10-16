@@ -45,10 +45,14 @@ namespace _10._LadyBugs
                     .ToArray();
             foreach (int index in ladybirds)
             {
-                field[index] = 1;
+                if (index >= 0 && index < field.Length)
+                {
+
+                    field[index] = 1;
+                }
             }
-            string commandInput = Console.ReadLine();
-            while (commandInput != "end")
+            string commandInput;
+            while ((commandInput = Console.ReadLine()) != "end")
             { // 2.0 Initiallize comand instructions
                 string[] command = commandInput.Split(" ", StringSplitOptions.RemoveEmptyEntries);
                 long ladybirdLocation = long.Parse(command[0]);
@@ -57,12 +61,10 @@ namespace _10._LadyBugs
                 // 3.0 Scanning for ladybird 
                 if (ladybirdLocation < 0 || ladybirdLocation >= fieldSize)
                 {
-                    commandInput = Console.ReadLine();
                     continue;
                 }
                 if (field[ladybirdLocation] == 0)
                 {
-                    commandInput = Console.ReadLine();
                     continue;
                 }
                 // 4.0 Found a ladybird
@@ -74,21 +76,18 @@ namespace _10._LadyBugs
                 long movement = ladybirdLocation + ladybirdSpeed;  // ladbird is moving.
                 if (movement < 0 || movement >= fieldSize)
                 {
-                    commandInput = Console.ReadLine();
                     continue;
                 }
-                while (movement >= 0 && movement < fieldSize)
+                while (movement >= 0 && movement < fieldSize && field[movement] == 1)
                 {
-                    if (field[movement] == 0) // free spot
-                    {
-                        field[movement] = 1; // land here
-                    }
-                    else
-                    {
-                        movement += ladybirdSpeed;// there is another ladybird on the new place. Proceed with the movement.
-                    }
+                    movement += ladybirdSpeed;
                 }
-                commandInput = Console.ReadLine();
+
+                if (movement < 0 || movement >= fieldSize)
+                {
+                    continue;
+                }
+                field[movement] = 1;
             }
 
             Console.WriteLine(string.Join(" ", field));
