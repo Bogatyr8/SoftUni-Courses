@@ -8,12 +8,12 @@ namespace _02._Vowels_Count
         {
             //Create a method that receives a single string and prints out the number of vowels contained in it.
             string input = Console.ReadLine();
-            int vowelcount = 0;
-            vowelcount = VowelCount(input, vowelcount);
+            int vowelcount = VowelCount(input);
         }
 
-        private static int VowelCount(string input, int vowelcount)
+        private static int VowelCount(string input)
         {
+            int vowelcount = 0;
             for (int i = 0; i < input.Length; i++)
             {
                 switch (input[i])
