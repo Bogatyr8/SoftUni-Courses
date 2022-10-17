@@ -12,7 +12,7 @@ namespace _08._Factorial_Division
             BigInteger a = BigInteger.Parse(Console.ReadLine());
             BigInteger b = BigInteger.Parse(Console.ReadLine());
 
-            double result = (double)Division(Factoriel(a), Factoriel(b));
+            double result = Division(Factoriel(a), Factoriel(b));
             Console.WriteLine($"{result:f2}");
         }
 
@@ -33,9 +33,9 @@ namespace _08._Factorial_Division
             return factoriel;
         }
 
-        static BigInteger Division(BigInteger a, BigInteger b)
+        static double Division(BigInteger a, BigInteger b)
         {
-            return a/b;
+            return (double)a/(double)b;
         }
     }
 }
