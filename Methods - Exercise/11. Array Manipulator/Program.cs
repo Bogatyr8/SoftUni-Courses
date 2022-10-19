@@ -56,15 +56,15 @@ namespace _11._Array_Manipulator
             {
                 string[] commandArray = command
                     .Split(" ", StringSplitOptions.RemoveEmptyEntries);
-
+                  
                 string subCommand = string.Empty;
                 int commandIndex = 0;
 
                 switch (commandArray[0])
-                {
+                { 
                     case "exchange":
                         commandIndex = int.Parse(commandArray[1]);
-                        if (commandIndex > (array.Length - 1))
+                        if (commandIndex < 0 || commandIndex > (array.Length - 1))
                         {
                             Console.WriteLine("Invalid index");
                             continue;
@@ -73,20 +73,44 @@ namespace _11._Array_Manipulator
                         break;
                     case "max":
                         subCommand = commandArray[1];
-                        MaxEvenOrOdd(array, subCommand);
+                        int indexOfMaxValue = MaxEvenOrOdd(array, subCommand);
+
+                        if (indexOfMaxValue == -1)
+                        {
+                            Console.WriteLine("No matches");
+                            continue;
+                        }
+                        Console.WriteLine(indexOfMaxValue);
                         break;
                     case "min":
                         subCommand = commandArray[1];
-                        MinEvenOrOdd(array, subCommand);
+                        int indexOfMinValue = MinEvenOrOdd(array, subCommand);
+
+                        if (indexOfMinValue == -1)
+                        {
+                            Console.WriteLine("No matches");
+                            continue;
+                        }
+                        Console.WriteLine(indexOfMinValue);
                         break;
                     case "first":
                         commandIndex = int.Parse(commandArray[1]);
                         subCommand = commandArray[2];
+                        if (commandIndex > array.Length)
+                        {
+                            Console.WriteLine("Invalid count");
+                            continue;
+                        }
                         FirstXEvenOrOdd(array, commandIndex, subCommand);
                         break;
                     case "last":
                         commandIndex = int.Parse(commandArray[1]);
                         subCommand = commandArray[2];
+                        if (commandIndex > array.Length)
+                        {
+                            Console.WriteLine("Invalid count");
+                            continue;
+                        }
                         LastXEvenOrOdd(array, commandIndex, subCommand);
                         break;
                 }
@@ -99,7 +123,7 @@ namespace _11._Array_Manipulator
         {
             int counter = 0;
             int subCounter = 0;
-            if (subCommand == "even" && commandIndex <= array.Length)
+            if (subCommand == "even")
             {
                 for (int i = 0; i < array.Length; i++)
                 {
@@ -116,7 +140,7 @@ namespace _11._Array_Manipulator
                         if (array[j] % 2 == 0 && counter <= commandIndex)
                         {
                             subArray[i] = array[j];
-                            subCounter = i + 1;
+                            subCounter = j + 1;
                             break;
                         }
                     }
@@ -124,7 +148,7 @@ namespace _11._Array_Manipulator
 
                 Console.WriteLine("[" + string.Join(", ", subArray) + "]");
             }
-            else if (subCommand == "odd" && commandIndex <= array.Length)
+            else if (subCommand == "odd")
             {
                 for (int i = 0; i < array.Length; i++)
                 {
@@ -141,7 +165,7 @@ namespace _11._Array_Manipulator
                         if (array[j] % 2 == 1 && counter <= commandIndex)
                         {
                             subArray[i] = array[j];
-                            subCounter = i + 1;
+                            subCounter = j + 1;
                             break;
                         }
                     }
@@ -149,17 +173,13 @@ namespace _11._Array_Manipulator
 
                 Console.WriteLine("[" + string.Join(", ", subArray) + "]");
             }
-            else
-            {
-                Console.WriteLine("Invalid count");
-            }
         }
         static void LastXEvenOrOdd(int[] array, int commandIndex, string subCommand)
         {
-            
             int counter = 0;
             int subCounter = 0;
-            if (subCommand == "even" && commandIndex <= array.Length)
+            array = ReversedArray(array);
+            if (subCommand == "even")
             {
                 for (int i = 0; i < array.Length; i++)
                 {
@@ -169,22 +189,22 @@ namespace _11._Array_Manipulator
                     }
                 }
                 int[] subArray = new int[counter];
-                for (int i = counter - 1; i >= 0; i--)
+                for (int i = 0; i < counter; i++)
                 {
-                    for (int j = array.Length - subCounter - 1; j >= 0; j--)
+                    for (int j = 0 + subCounter; j < array.Length; j++)
                     {
                         if (array[j] % 2 == 0 && counter <= commandIndex)
                         {
                             subArray[i] = array[j];
-                            subCounter = i;
+                            subCounter = j + 1;
                             break;
                         }
                     }
                 }
-
+                subArray = ReversedArray(subArray);
                 Console.WriteLine("[" + string.Join(", ", subArray) + "]");
             }
-            else if (subCommand == "odd" && commandIndex <= array.Length)
+            else if (subCommand == "odd")
             {
                 for (int i = 0; i < array.Length; i++)
                 {
@@ -194,32 +214,27 @@ namespace _11._Array_Manipulator
                     }
                 }
                 int[] subArray = new int[counter];
-                for (int i = counter - 1; i >= 0; i--)
+                for (int i = 0; i < counter; i++)
                 {
-                    for (int j = array.Length - subCounter - 1; j >= 0; j--)
+                    for (int j = 0 + subCounter; j < array.Length; j++)
                     {
                         if (array[j] % 2 == 1 && counter <= commandIndex)
                         {
                             subArray[i] = array[j];
-                            subCounter = i;
+                            subCounter = j + 1;
                             break;
                         }
                     }
                 }
-
+                subArray = ReversedArray(subArray);
                 Console.WriteLine("[" + string.Join(", ", subArray) + "]");
             }
-            else
-            {
-                Console.WriteLine("Invalid count");
-            }
-
         }
 
-        static void MaxEvenOrOdd(int[] array, string subCommand)
+        static int MaxEvenOrOdd(int[] array, string subCommand)
         {
             int maxValue = int.MinValue;
-            int indexOfMaxValue = 0;
+            int indexOfMaxValue = -1;
             bool isThereAMatch = maxValue != int.MinValue;
             for (int i = 0; i < array.Length; i++)
             {
@@ -240,23 +255,13 @@ namespace _11._Array_Manipulator
                     }
                 }
             }
-
-            isThereAMatch = maxValue != int.MinValue;
-            if (isThereAMatch)
-            {
-                Console.WriteLine(indexOfMaxValue);
-            }
-            else
-            {
-                Console.WriteLine("No matches");
-            }
+            return indexOfMaxValue;
         }
 
-        static void MinEvenOrOdd(int[] array, string subCommand)
+        static int MinEvenOrOdd(int[] array, string subCommand)
         {
             int minValue = int.MaxValue;
-            int indexOfMinValue = 0;
-            bool isThereAMatch = minValue != int.MaxValue;
+            int indexOfMinValue = -1;
             for (int i = 0; i < array.Length; i++)
             {
                 if (subCommand == "even")
@@ -276,16 +281,7 @@ namespace _11._Array_Manipulator
                     }
                 }
             }
-
-            isThereAMatch = minValue != int.MaxValue;
-            if (isThereAMatch)
-            {
-                Console.WriteLine(indexOfMinValue);
-            }
-            else
-            {
-                Console.WriteLine("No matches");
-            }
+            return indexOfMinValue;
         }
 
         static int[] ExchangedArray(int[] array, int index)
@@ -306,6 +302,16 @@ namespace _11._Array_Manipulator
                 .Select(int.Parse)
                 .ToArray();
             return array;
+        }
+
+        static int[] ReversedArray(int[] array)
+        {
+            int[] reversedArr = new int[array.Length];
+            for (int i = 0; i < array.Length; i++)
+            {
+                reversedArr[array.Length - i - 1] = array[i];
+            }
+            return reversedArr;
         }
     }
 }

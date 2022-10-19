@@ -41,7 +41,7 @@ namespace _04._Password_Validator
             }
         }
 
-        static bool IsPasswordLengthValid(string password)
+        static bool IsPasswordLengthValid(string password) 
         {
             bool isValid = password.Length >= 6 && password.Length <= 10;
             return isValid;
