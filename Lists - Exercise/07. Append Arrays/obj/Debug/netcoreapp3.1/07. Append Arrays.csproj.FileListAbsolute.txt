@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\obj\Debug\netcoreapp3.1\07. Append Arrays.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\obj\Debug\netcoreapp3.1\07. Append Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\obj\Debug\netcoreapp3.1\07. Append Arrays.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\obj\Debug\netcoreapp3.1\07. Append Arrays.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\obj\Debug\netcoreapp3.1\07. Append Arrays.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\bin\Debug\netcoreapp3.1\07. Append Arrays.exe
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\bin\Debug\netcoreapp3.1\07. Append Arrays.deps.json
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\bin\Debug\netcoreapp3.1\07. Append Arrays.runtimeconfig.json
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\bin\Debug\netcoreapp3.1\07. Append Arrays.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\bin\Debug\netcoreapp3.1\07. Append Arrays.dll
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\bin\Debug\netcoreapp3.1\07. Append Arrays.pdb
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\obj\Debug\netcoreapp3.1\07. Append Arrays.dll
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\obj\Debug\netcoreapp3.1\07. Append Arrays.pdb
+C:\CSharp\Fundamentals\Lists - Exercise\07. Append Arrays\obj\Debug\netcoreapp3.1\07. Append Arrays.genruntimeconfig.cache

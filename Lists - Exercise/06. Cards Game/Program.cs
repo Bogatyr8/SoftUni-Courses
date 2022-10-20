@@ -59,7 +59,7 @@ namespace _06._Cards_Game
             {
                 Console.WriteLine($"First player wins! Sum: {sumPlayer1}");
             }
-            else if (player2.Count == 0)
+            else if (player1.Count == 0)
             {
                 Console.WriteLine($"Second player wins! Sum: {sumPlayer2}");
             }
