@@ -49,7 +49,7 @@ namespace _03._House_Party
                     }
                 }
             }
-            Console.WriteLine(string.Join("\r\n", partyList));
+            Console.WriteLine(string.Join(Environment.NewLine, partyList));
         }
     }
 }

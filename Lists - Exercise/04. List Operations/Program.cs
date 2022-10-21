@@ -73,7 +73,6 @@ namespace _04._List_Operations
             {
                 rotatedList.Add(0);
             }
-            int sign = 1;
             int offset = 0;
 
             for (int i = 0; i < example.Count; i++)
