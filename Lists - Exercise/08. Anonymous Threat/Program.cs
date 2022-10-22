@@ -97,32 +97,23 @@ namespace _08._Anonymous_Threat
                     int counterOfChars = 0;
                     for (int i = 0; i < ContainerOfSize; i++)
                     {
-                        if (sizeOfPartition > 1)
+                        temporaryContainer += tempList[0];
+                        tempList.RemoveAt(0);
+                        if (!(counterOfPartition == value2 - 1))
                         {
-                            temporaryContainer += tempList[0];
-                            tempList.RemoveAt(0);
-                            if (!(counterOfPartition == value2 - 1))
-                            {
-                                counterOfChars++;
-                            }
-                            if (counterOfChars == sizeOfPartition)
-                            {
-                                temporaryContainer += " ";
-                                counterOfPartition++;
-                                counterOfChars = 0;
-                            }
+                            counterOfChars++;
+                        }
+                        if (counterOfChars == sizeOfPartition)
+                        {
+                            temporaryContainer += " ";
+                            counterOfPartition++;
+                            counterOfChars = 0;
                         }
                     }
                     dataList.RemoveAt(value1);
                     string[] tempArray = temporaryContainer
                         .Split(" ");
                     dataList.InsertRange(value1, tempArray);
-                    //dataList.RemoveAt(value1);
-                    //for (int i = tempArray.Length - 1; i >= 0; i--)
-                    //{
-                    //    dataList.Insert(value1, tempArray[i]);
-                    //}
-
                 }
 
             }
