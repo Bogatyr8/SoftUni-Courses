@@ -1,0 +1,14 @@
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\obj\Debug\netcoreapp3.1\01. Cooking Masterclass.csproj.AssemblyReference.cache
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\obj\Debug\netcoreapp3.1\01. Cooking Masterclass.GeneratedMSBuildEditorConfig.editorconfig
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\obj\Debug\netcoreapp3.1\01. Cooking Masterclass.AssemblyInfoInputs.cache
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\obj\Debug\netcoreapp3.1\01. Cooking Masterclass.AssemblyInfo.cs
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\obj\Debug\netcoreapp3.1\01. Cooking Masterclass.csproj.CoreCompileInputs.cache
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\bin\Debug\netcoreapp3.1\01. Cooking Masterclass.exe
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\bin\Debug\netcoreapp3.1\01. Cooking Masterclass.deps.json
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\bin\Debug\netcoreapp3.1\01. Cooking Masterclass.runtimeconfig.json
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\bin\Debug\netcoreapp3.1\01. Cooking Masterclass.runtimeconfig.dev.json
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\bin\Debug\netcoreapp3.1\01. Cooking Masterclass.dll
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\bin\Debug\netcoreapp3.1\01. Cooking Masterclass.pdb
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\obj\Debug\netcoreapp3.1\01. Cooking Masterclass.dll
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\obj\Debug\netcoreapp3.1\01. Cooking Masterclass.pdb
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\01. Cooking Masterclass\obj\Debug\netcoreapp3.1\01. Cooking Masterclass.genruntimeconfig.cache
