@@ -1,0 +1,14 @@
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\bin\Debug\netcoreapp3.1\03. The Angry Cat.exe
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\bin\Debug\netcoreapp3.1\03. The Angry Cat.deps.json
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\bin\Debug\netcoreapp3.1\03. The Angry Cat.runtimeconfig.json
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\bin\Debug\netcoreapp3.1\03. The Angry Cat.runtimeconfig.dev.json
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\bin\Debug\netcoreapp3.1\03. The Angry Cat.dll
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\bin\Debug\netcoreapp3.1\03. The Angry Cat.pdb
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\obj\Debug\netcoreapp3.1\03. The Angry Cat.csproj.AssemblyReference.cache
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\obj\Debug\netcoreapp3.1\03. The Angry Cat.GeneratedMSBuildEditorConfig.editorconfig
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\obj\Debug\netcoreapp3.1\03. The Angry Cat.AssemblyInfoInputs.cache
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\obj\Debug\netcoreapp3.1\03. The Angry Cat.AssemblyInfo.cs
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\obj\Debug\netcoreapp3.1\03. The Angry Cat.csproj.CoreCompileInputs.cache
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\obj\Debug\netcoreapp3.1\03. The Angry Cat.dll
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\obj\Debug\netcoreapp3.1\03. The Angry Cat.pdb
+E:\BOYAN\Programming\C#\Help&Tips\C# playground\Programming Fundamentals Mid Exam - 23 October 2022\03. The Angry Cat\obj\Debug\netcoreapp3.1\03. The Angry Cat.genruntimeconfig.cache
