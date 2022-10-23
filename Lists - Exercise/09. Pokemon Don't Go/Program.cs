@@ -59,7 +59,6 @@ namespace _09._Pokemon_Don_t_Go
                     ChangingValues(pokemons, choosenPokemon);
                     choosenPokemon = pokemons[0];
                     pokemons.Add(choosenPokemon);
-                    Console.WriteLine(string.Join(" ", pokemons));
                     continue;
                 }
 
@@ -67,8 +66,6 @@ namespace _09._Pokemon_Don_t_Go
                 sum += choosenPokemon;
                 pokemons.RemoveAt(index);
                 ChangingValues(pokemons, choosenPokemon);
-
-                Console.WriteLine(string.Join(" ", pokemons));
             }
             Console.WriteLine(sum);
         }
