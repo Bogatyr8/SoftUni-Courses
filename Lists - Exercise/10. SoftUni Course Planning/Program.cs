@@ -50,29 +50,50 @@ namespace _10._SoftUni_Course_Planning
                 else if (order == "Swap")
                 {
                     string lessonTitle2 = command[2];
+                    string exercise = string.Empty;
                     index = program.FindIndex(x => x.Contains(lessonTitle));
                     int index2 = program.FindIndex(x => x.Contains(lessonTitle2));
                     if (index < index2)
                     {
+                        if (ExerciseCheck(program, lessonTitle))
+                        {
+                            exercise = program[index + 1];
+                            program.RemoveAt(index + 1);
+                            program.Insert(index2, exercise);
+                        }
                         program.Insert(index2, lessonTitle);
                         RemoveFirstLesson(program, lessonTitle);
-                        Exercise(program, lessonTitle);
 
-                        index2 = program.FindIndex(x => x.Contains(lessonTitle2));
+                        if (ExerciseCheck(program, lessonTitle2))
+                        {
+                            exercise = program[index2 + 1];
+                            program.RemoveAt(index2 + 1);
+                            program.Insert(index, exercise);
+                        }
                         program.Insert(index, lessonTitle2);
-                        RemoveFirstLesson(program, lessonTitle2);
-                        Exercise(program, lessonTitle2);
+                        RemoveLastLesson(program, lessonTitle2);
                     }
                     else
                     {
+                        if (ExerciseCheck(program, lessonTitle2))
+                        {
+                            exercise = program[index2 + 1];
+                            program.RemoveAt(index2 + 1);
+                            program.Insert(index, exercise);
+                        }
                         program.Insert(index, lessonTitle2);
                         RemoveFirstLesson(program, lessonTitle2);
-                        Exercise(program, lessonTitle2);
 
+
+                        if (ExerciseCheck(program, lessonTitle))
+                        {
+                            exercise = program[index + 1];
+                            program.RemoveAt(index + 1);
+                            program.Insert(index2, exercise);
+                        }
                         index2 = program.FindIndex(x => x.Contains(lessonTitle));
                         program.Insert(index2, lessonTitle);
-                        RemoveFirstLesson(program, lessonTitle);
-                        Exercise(program, lessonTitle);
+                        RemoveLastLesson(program, lessonTitle);
                     }
 
 
@@ -87,13 +108,12 @@ namespace _10._SoftUni_Course_Planning
 
         static void Exercise(List<string> program, string lessonTitle)
         {
-            string exerTitle = string.Empty;
+            string exerTitle = lessonTitle + "-Exercise";
             if (LessonCheck(program, lessonTitle))
             {
-                if (!(ExerciseCheck(program, lessonTitle)))
+                if ((ExerciseCheck(program, lessonTitle)))
                 {
                     int index = program.FindIndex(x => x.Contains(lessonTitle));
-                    exerTitle = lessonTitle + "-Exercise";
                     program.Insert(index + 1, exerTitle);
                 }
             }
@@ -118,10 +138,6 @@ namespace _10._SoftUni_Course_Planning
         static void RemoveLastLesson(List<string> program, string lessonTitle) //Removes last lesson (and it's exercise)
         {
             int index = program.FindLastIndex(x => x.Contains(lessonTitle));
-            if (ExerciseCheck(program, lessonTitle))
-            {
-                program.RemoveAt(index + 1);
-            }
             program.RemoveAt(index);
         }
 
@@ -133,7 +149,14 @@ namespace _10._SoftUni_Course_Planning
         static bool ExerciseCheck(List<string> program, string lessonTitle)  //Check if coresonding exercise exists
         {
             string exerciseTitle = lessonTitle + "-Exercise";
-           return program.Contains(exerciseTitle);
+            if (program.Contains(exerciseTitle))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         static void PrintCourses(List<string> program) // print the List on console
