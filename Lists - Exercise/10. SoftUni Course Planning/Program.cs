@@ -36,66 +36,74 @@ namespace _10._SoftUni_Course_Planning
                 int index = 0;
                 if (order == "Add")
                 {
-                    program.Add(lessonTitle);
+                    if (LessonCheck(program, lessonTitle))
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        program.Add(lessonTitle);
+                    }
                 }
                 else if (order == "Insert")
                 {
+                    if (LessonCheck(program, lessonTitle))
+                    {
+                        continue;
+                    }
+                    else
+                    {
                     index = int.Parse(command[2]);
                     program.Insert(index, lessonTitle);
+                    }
                 }
                 else if (order == "Remove")
                 {
-                    RemoveFirstLesson(program, lessonTitle);
+                    string exercise = lessonTitle + "-Exercise";
+                    if (program.Contains(exercise))
+                    {
+                        index = program.IndexOf(exercise);
+                        program.RemoveAt(index);
+                    }
+
+                    if (program.Contains(lessonTitle))
+                    {
+                        index = program.IndexOf(lessonTitle);
+                        program.RemoveAt(index);
+                    }
                 }
                 else if (order == "Swap")
                 {
                     string lessonTitle2 = command[2];
-                    string exercise = string.Empty;
-                    index = program.FindIndex(x => x.Contains(lessonTitle));
-                    int index2 = program.FindIndex(x => x.Contains(lessonTitle2));
-                    if (index < index2)
+                    string exercise1 = lessonTitle + "-Exercise";
+                    string exercise2 = lessonTitle2 + "-Exercise";
+                    int index2 = 0;
+
+                    if (LessonCheck(program, lessonTitle) && LessonCheck(program, lessonTitle2))
                     {
-                        if (ExerciseCheck(program, lessonTitle))
-                        {
-                            exercise = program[index + 1];
-                            program.RemoveAt(index + 1);
-                            program.Insert(index2, exercise);
-                        }
-                        program.Insert(index2, lessonTitle);
-                        RemoveFirstLesson(program, lessonTitle);
-
-                        if (ExerciseCheck(program, lessonTitle2))
-                        {
-                            exercise = program[index2 + 1];
-                            program.RemoveAt(index2 + 1);
-                            program.Insert(index, exercise);
-                        }
+                        index = program.IndexOf(lessonTitle);
+                        index2 = program.IndexOf(lessonTitle2);
+                        program.RemoveAt(index);
                         program.Insert(index, lessonTitle2);
-                        RemoveLastLesson(program, lessonTitle2);
-                    }
-                    else
-                    {
-                        if (ExerciseCheck(program, lessonTitle2))
-                        {
-                            exercise = program[index2 + 1];
-                            program.RemoveAt(index2 + 1);
-                            program.Insert(index, exercise);
-                        }
-                        program.Insert(index, lessonTitle2);
-                        RemoveFirstLesson(program, lessonTitle2);
-
-
-                        if (ExerciseCheck(program, lessonTitle))
-                        {
-                            exercise = program[index + 1];
-                            program.RemoveAt(index + 1);
-                            program.Insert(index2, exercise);
-                        }
-                        index2 = program.FindIndex(x => x.Contains(lessonTitle));
+                        program.RemoveAt(index2);
                         program.Insert(index2, lessonTitle);
-                        RemoveLastLesson(program, lessonTitle);
                     }
 
+                    if (program.Contains(exercise1))
+                    {
+                        int indexExercise = program.IndexOf(exercise1);
+                        index = program.IndexOf(lessonTitle);
+                        program.RemoveAt(indexExercise);
+                        program.Insert(index + 1, exercise1);
+                    }
+                    
+                    if (program.Contains(exercise2))
+                    {
+                        int indexExercise = program.IndexOf(exercise2);
+                        index = program.IndexOf(lessonTitle2);
+                        program.RemoveAt(indexExercise);
+                        program.Insert(index + 1, exercise2);
+                    }
 
                 }
                 else if (order == "Exercise")
@@ -111,9 +119,9 @@ namespace _10._SoftUni_Course_Planning
             string exerTitle = lessonTitle + "-Exercise";
             if (LessonCheck(program, lessonTitle))
             {
-                if ((ExerciseCheck(program, lessonTitle)))
+                if (!(ExerciseCheck(program, lessonTitle)))
                 {
-                    int index = program.FindIndex(x => x.Contains(lessonTitle));
+                    int index = program.IndexOf(lessonTitle);
                     program.Insert(index + 1, exerTitle);
                 }
             }
@@ -123,22 +131,6 @@ namespace _10._SoftUni_Course_Planning
                 program.Add(exerTitle);
             }
 
-        }
-
-        static void RemoveFirstLesson(List<string> program, string lessonTitle) //Removes first lesson (and it's exercise)
-        {
-            int index = program.FindIndex(x => x.Contains(lessonTitle));
-            if (ExerciseCheck(program, lessonTitle))
-            {
-                program.RemoveAt(index + 1);
-            }
-            program.RemoveAt(index);
-        }
-
-        static void RemoveLastLesson(List<string> program, string lessonTitle) //Removes last lesson (and it's exercise)
-        {
-            int index = program.FindLastIndex(x => x.Contains(lessonTitle));
-            program.RemoveAt(index);
         }
 
         static bool LessonCheck(List<string> program, string lessonTitle)  //Check if coresonding lesson exists
