@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\bin\Debug\netcoreapp3.1\03. TakeOrSkip Rope.exe
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\bin\Debug\netcoreapp3.1\03. TakeOrSkip Rope.deps.json
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\bin\Debug\netcoreapp3.1\03. TakeOrSkip Rope.runtimeconfig.json
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\bin\Debug\netcoreapp3.1\03. TakeOrSkip Rope.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\bin\Debug\netcoreapp3.1\03. TakeOrSkip Rope.dll
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\bin\Debug\netcoreapp3.1\03. TakeOrSkip Rope.pdb
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\obj\Debug\netcoreapp3.1\03. TakeOrSkip Rope.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\obj\Debug\netcoreapp3.1\03. TakeOrSkip Rope.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\obj\Debug\netcoreapp3.1\03. TakeOrSkip Rope.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\obj\Debug\netcoreapp3.1\03. TakeOrSkip Rope.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\obj\Debug\netcoreapp3.1\03. TakeOrSkip Rope.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\obj\Debug\netcoreapp3.1\03. TakeOrSkip Rope.dll
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\obj\Debug\netcoreapp3.1\03. TakeOrSkip Rope.pdb
+C:\CSharp\Fundamentals\Lists - More Exercise\03. TakeOrSkip Rope\obj\Debug\netcoreapp3.1\03. TakeOrSkip Rope.genruntimeconfig.cache

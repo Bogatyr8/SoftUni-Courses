@@ -53,7 +53,7 @@ namespace _02._Car_Race
             {
                 if (rightD == 0)
                 {
-                    Console.WriteLine($"The winner is left with total time: {right:f0}");
+                    Console.WriteLine($"The winner is right with total time: {right:f0}");
                 }
                 else
                 {
