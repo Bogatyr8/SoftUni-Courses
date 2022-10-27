@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. TakeOrSkip Rope", "03. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Mixed up Lists", "04. Mixed up Lists\04. Mixed up Lists.csproj", "{4B64A59F-B3F5-4A67-A008-7B3E9AE67FD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Drum Set", "05. Drum Set\05. Drum Set.csproj", "{7FAA6275-F37E-4A78-8E59-FA083DFD2BD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4B64A59F-B3F5-4A67-A008-7B3E9AE67FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B64A59F-B3F5-4A67-A008-7B3E9AE67FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B64A59F-B3F5-4A67-A008-7B3E9AE67FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAA6275-F37E-4A78-8E59-FA083DFD2BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAA6275-F37E-4A78-8E59-FA083DFD2BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAA6275-F37E-4A78-8E59-FA083DFD2BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAA6275-F37E-4A78-8E59-FA083DFD2BD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
