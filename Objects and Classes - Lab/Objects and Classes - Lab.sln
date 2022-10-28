@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Randomize Words", "01. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Big Factorial", "02. Big Factorial\02. Big Factorial.csproj", "{E5C47438-05E5-4D3A-BB40-2E36F0746AD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Songs", "03. Songs\03. Songs.csproj", "{B40DB9FD-333E-4388-9D7E-23F11FEC3950}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E5C47438-05E5-4D3A-BB40-2E36F0746AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5C47438-05E5-4D3A-BB40-2E36F0746AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5C47438-05E5-4D3A-BB40-2E36F0746AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40DB9FD-333E-4388-9D7E-23F11FEC3950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40DB9FD-333E-4388-9D7E-23F11FEC3950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40DB9FD-333E-4388-9D7E-23F11FEC3950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40DB9FD-333E-4388-9D7E-23F11FEC3950}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
