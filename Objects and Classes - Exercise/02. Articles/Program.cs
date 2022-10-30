@@ -22,7 +22,7 @@ namespace _02._Articles
 //•	"ChangeAuthor: {new author}"
 //•	"Rename: {new title}"
 //In the end, print the final state of the article.
-            string[] input = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
+            string[] input = Console.ReadLine().Split(", ", StringSplitOptions.RemoveEmptyEntries);
             int n = int.Parse(Console.ReadLine());
 
             string title = input[0];
