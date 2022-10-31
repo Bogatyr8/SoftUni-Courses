@@ -45,7 +45,7 @@ namespace _04._Students
 
             foreach (var student in descending)
             {
-                Console.WriteLine($"{student.FirstName} {student.LastName} {student.Grade:f2}");
+                Console.WriteLine($"{student.FirstName} {student.LastName}: {student.Grade:f2}");
             }
         }
     }
