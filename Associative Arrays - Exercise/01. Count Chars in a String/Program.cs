@@ -35,9 +35,9 @@ namespace _01._Count_Chars_in_a_String
                 dict[item] += 1;
             }
 
-            foreach (var (klyuch, stoinost) in dict)
+            foreach (var item in dict)
             {
-                Console.WriteLine($"{klyuch} -> {stoinost}");
+                Console.WriteLine($"{item.Key} -> {item.Value}");
             }
 
         }
