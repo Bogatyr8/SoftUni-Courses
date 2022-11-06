@@ -37,7 +37,7 @@ namespace _02._A_Miner_Task
 
             foreach (var item in resources)
             {
-                Console.WriteLine($"{item.Key} –> {item.Value}");
+                Console.WriteLine($"{item.Key} -> {item.Value}");
             }
         }
     }
