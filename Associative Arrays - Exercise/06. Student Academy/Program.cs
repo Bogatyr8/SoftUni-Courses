@@ -44,7 +44,7 @@ namespace _06._Student_Academy
 
             foreach (var item in sorted)
             {
-                Console.WriteLine($"{item.Key} –> {item.Value.Average():f2}");
+                Console.WriteLine($"{item.Key} -> {item.Value.Average():f2}");
             }
         }
     }
