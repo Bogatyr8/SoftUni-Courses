@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Valid Usernames", "01. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Character Multiplier", "02. Character Multiplier\02. Character Multiplier.csproj", "{68CDDC7E-47E1-4480-A696-9AAA1B7326D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Extract File", "03. Extract File\03. Extract File.csproj", "{006C5E3E-4D61-4E6A-81DA-B5367B957B69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{68CDDC7E-47E1-4480-A696-9AAA1B7326D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68CDDC7E-47E1-4480-A696-9AAA1B7326D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68CDDC7E-47E1-4480-A696-9AAA1B7326D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006C5E3E-4D61-4E6A-81DA-B5367B957B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006C5E3E-4D61-4E6A-81DA-B5367B957B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006C5E3E-4D61-4E6A-81DA-B5367B957B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006C5E3E-4D61-4E6A-81DA-B5367B957B69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
