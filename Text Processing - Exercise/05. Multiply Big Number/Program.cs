@@ -22,7 +22,7 @@ namespace _05._Multiply_Big_Number
 
             for (int i = input.Length - 1; i >= 0; i--)
             {
-                int tempValue = ((input[i] - 48) * input2) + credit;
+                int tempValue = ((input[i] - 48) * Math.Abs(input2)) + credit;
                 credit = tempValue / 10;
                 char currentDigit = (char)((tempValue % 10) + 48);
                 product.Append(currentDigit);
@@ -31,14 +31,22 @@ namespace _05._Multiply_Big_Number
             {
                 product.Append(credit);
             }
-            if (input1[0] == '-')
+            if (input1[0] == '-' || input2 < 0)
             {
                 product.Append('-');
+            }
+            if (input1[0] == '-' && input2 < 0)
+            {
+                product.Remove(product.Length - 1, 1);
             }
             string strProduct = product.ToString();
             char[] charArray = strProduct.ToCharArray();
             Array.Reverse(charArray);
             string output = new string(charArray);
+            if (input2 == 0)
+            {
+                output = "0";
+            }
 
             Console.WriteLine(output);
 
