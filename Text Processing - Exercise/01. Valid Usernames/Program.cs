@@ -18,7 +18,7 @@ namespace _01._Valid_Usernames
 
             foreach (var item in input)
             {
-                if (item.Length < 3 || item.Length > 16)
+                if (item.Length < 3 && item.Length > 16)
                 {
                     continue;
                 }

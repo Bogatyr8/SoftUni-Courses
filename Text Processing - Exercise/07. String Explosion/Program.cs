@@ -28,58 +28,57 @@ namespace _07._String_Explosion
                 .Split(">")
                 .Select(x => x.Length)
                 .ToArray();
-            string output = string.Concat(bombs[0], '>');
-            int bombCounter = 0;
-            while (AreThereMoreBombs(input))
+            string shell = string.Empty;
+            for (int i = 1; i < bombs.Length; i++)
             {
-                int bombLocation = input.IndexOf('>');
-                int power = (int)(input[bombLocation + 1] - 48);
+                shell = string.Concat(shell, '>');
+            }
+            string output = string.Concat(bombs[0], shell);
+            int bombCounter = 0;
+            int offset = 0;
+            while (BombChecker(input))
+            {
+                int bombLocation = input.IndexOf(">");
+                input = input.Substring(bombLocation + 1);
                 bombCounter++;
-                while (AreThereBombsInBlastArea(input, power))
-                {
-                    output = string.Concat(output, '>');
-                    power -= bombsDistance[bombCounter];
-                    bombCounter++;
-                    input = input.Substring(bombLocation);
-                    bombLocation = 0;
-                }
-                if (!AreThereBombsInBlastArea(input, power))
-                {
-                    string residue = (bombs[bombCounter].Remove(0, power));
-                    output = string.Concat(output, residue, '>');
-                    input = input.Substring(bombLocation + 1);
-                    power = 0;
-                }
-                if (input[0] == '>')
-                {
-                    input = input.Substring(1);
-                }
+                string word = bombs[bombCounter];
+                int power = int.Parse(word[0].ToString());
+                BlastCasscade(ref input, bombs, ref output, ref bombCounter, ref word, ref power, ref offset);
             }
 
             Console.WriteLine(output);
-
         }
 
-        static bool AreThereBombsInBlastArea(string input, int power)
+        private static void BlastCasscade(ref string input, string[] bombs, ref string output, ref int bombCounter, ref string word, ref int power, ref int offset)
         {
-            bool flag = input.IndexOf(">") < power;
-            return flag;
-        }
-        static bool AreThereMoreBombs(string input)
-        {
-            return input.Contains(">");
-        }
-        static int SummmariseTheIndex(int[] bombs, int bombCounter, int power)
-        {
-            int totalIndex = 0;
-            for (int i = 0; i <= bombCounter; i++)
+            if (power > word.Length)
             {
-                totalIndex += bombs[i];
+                while (BombChecker(input) && power > word.Length)
+                {
+                    power -= word.Length;
+                    int bombLocation = input.IndexOf(">");
+                    input = input.Substring(bombLocation + 1);
+                    bombCounter++;
+                    word = bombs[bombCounter];
+                    power += int.Parse(word[0].ToString());
+
+                    BlastCasscade(ref input, bombs, ref output, ref bombCounter, ref word, ref power, ref offset);
+                }
             }
-            totalIndex += bombCounter;
-            totalIndex -= power;
-            return totalIndex;
+            else
+            {
+                word = word.Remove(0, power);
+                output = output.Insert((bombs[0].Length + bombCounter + offset), word);
+                offset += word.Length;
+                power = 0;
+                word = string.Empty;
+            }
         }
 
+        static bool BombChecker(string input)
+        {
+            bool bombChecker = input.Contains(">");
+            return bombChecker;
+        }
     }
 }
