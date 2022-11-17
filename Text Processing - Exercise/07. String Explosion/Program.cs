@@ -24,10 +24,6 @@ namespace _07._String_Explosion
 //•	The strength of the punches will be in the interval[0…9].
             string input = Console.ReadLine();
             string[] bombs = input.Split(">");
-            int[] bombsDistance = input
-                .Split(">")
-                .Select(x => x.Length)
-                .ToArray();
             string shell = string.Empty;
             for (int i = 1; i < bombs.Length; i++)
             {
