@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Match Full Name", "01. Match Full Name\01. Match Full Name.csproj", "{37156CAE-7EA4-4448-A79E-B06D3231D6D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Match Full Name", "01. Match Full Name\01. Match Full Name.csproj", "{37156CAE-7EA4-4448-A79E-B06D3231D6D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Match Phone Number", "02. Match Phone Number\02. Match Phone Number.csproj", "{A46272EF-3781-4855-8233-6D7402BC7858}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Match Phone Number", "02. Match Phone Number\02. Match Phone Number.csproj", "{A46272EF-3781-4855-8233-6D7402BC7858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Match Dates", "03. Match Dates\03. Match Dates.csproj", "{C1396F0D-C2CC-4D24-BCFC-9BB8A0E646AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A46272EF-3781-4855-8233-6D7402BC7858}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A46272EF-3781-4855-8233-6D7402BC7858}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A46272EF-3781-4855-8233-6D7402BC7858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1396F0D-C2CC-4D24-BCFC-9BB8A0E646AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1396F0D-C2CC-4D24-BCFC-9BB8A0E646AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1396F0D-C2CC-4D24-BCFC-9BB8A0E646AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1396F0D-C2CC-4D24-BCFC-9BB8A0E646AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
