@@ -17,7 +17,7 @@ namespace _01._Furniture
 //{ 2nd name}
 //…"
 //And on the last line, print the following: "Total money spend: {spend money}", formatted to the second decimal point.
-            string pattern = @">>(?<title>[A-Za-z]+( |_)*([A-Za-z])*)<<(?<price>\d+((\.|,)\d{2})*)!(?<quantity>\d+)";
+            string pattern = @">>(?<title>[A-Za-z]+)<<(?<price>\d+(\.\d+)?)!(?<quantity>\d+)(\.\d+)?";
             decimal sum = 0.0m;
             string input;
 
@@ -28,7 +28,7 @@ namespace _01._Furniture
             while ((input = Console.ReadLine()) != "Purchase")
             {
                 totalInput.Append(input);
-                totalInput.Append(", ");
+                totalInput.Append(" ");
             }
             string total = totalInput.ToString();
 
@@ -42,7 +42,7 @@ namespace _01._Furniture
                 string priceS = item.Groups["price"].Value;
                 string quantityS = item.Groups["quantity"].Value;
                 decimal price = decimal.Parse(priceS);
-                int quantity = int.Parse(quantityS);
+                decimal quantity = decimal.Parse(quantityS);
                 sum += price * quantity;
                 Console.WriteLine(title);
             }
