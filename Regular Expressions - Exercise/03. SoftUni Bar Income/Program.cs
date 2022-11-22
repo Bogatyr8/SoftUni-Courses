@@ -28,7 +28,7 @@ namespace _03._SoftUni_Bar_Income
 //•	After receiving "end of shift", print the total amount of money for the day, rounded to 2 decimal places in the following
 //format: "Total income: {income}".
 //•	Allowed working time / memory: 100ms / 16MB.
-            string pattern = @"([^|$%.]*)%(?<name>[A-Z][a-z]+)%([^|$%.]*)<(?<product>[A-Z][a-z]+)>([^|$%.]*)\|(?<count>[0-9]+)\|([^|$%.0-9]*)(?<price>[0-9]+(\.[0-9])*)\$([^|$%.]*)";
+            string pattern = @"%(?<name>[A-Z][a-z]+)%([^|$%.]*)<(?<product>\w+)>([^\|$%.]*)\|(?<count>\d+)\|([^|$%.]*?)(?<price>\d+(?:\.\d+)?)\$";
             decimal totalIncome = 0.0m;
             Regex regex = new Regex(pattern);
             string input;
