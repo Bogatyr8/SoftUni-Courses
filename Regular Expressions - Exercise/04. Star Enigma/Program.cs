@@ -37,7 +37,7 @@ namespace _04._Star_Enigma
 //The planets should be ordered by name alphabetically.
             List<string> attacked = new List<string>();
             List<string> destroyed = new List<string>();
-            string pattern = @"([^@\-!:>]*)@(?<planetName>[A-Z][a-z]+)([^@\-!:>]*):(?<population>\d+)!(?<attackType>[AD]{1})!->(?<soldiersCount>\d+)([^@\-!:>]*)";
+            string pattern = @"([^@\-!:>]*)@(?<planetName>[A-Z][a-z]+)([^@\-!:>]*):(?<population>\d+)!(?<attackType>[AD]{1})!([^@\-!:>]*)->(?<soldiersCount>\d+)([^@\-!:>]*)";
             Regex regex = new Regex(pattern);
             int n = int.Parse(Console.ReadLine());
             for (int i = 0; i < n; i++)

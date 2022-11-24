@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\bin\Debug\netcoreapp3.1\05. Nether Realms.exe
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\bin\Debug\netcoreapp3.1\05. Nether Realms.deps.json
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\bin\Debug\netcoreapp3.1\05. Nether Realms.runtimeconfig.json
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\bin\Debug\netcoreapp3.1\05. Nether Realms.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\bin\Debug\netcoreapp3.1\05. Nether Realms.dll
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\bin\Debug\netcoreapp3.1\05. Nether Realms.pdb
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\obj\Debug\netcoreapp3.1\05. Nether Realms.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\obj\Debug\netcoreapp3.1\05. Nether Realms.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\obj\Debug\netcoreapp3.1\05. Nether Realms.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\obj\Debug\netcoreapp3.1\05. Nether Realms.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\obj\Debug\netcoreapp3.1\05. Nether Realms.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\obj\Debug\netcoreapp3.1\05. Nether Realms.dll
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\obj\Debug\netcoreapp3.1\05. Nether Realms.pdb
+C:\CSharp\Fundamentals\Regular Expressions - Exercise\05. Nether Realms\obj\Debug\netcoreapp3.1\05. Nether Realms.genruntimeconfig.cache
