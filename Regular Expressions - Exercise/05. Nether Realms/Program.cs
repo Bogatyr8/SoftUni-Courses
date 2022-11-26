@@ -37,9 +37,10 @@ namespace _05._Nether_Realms
 //•	A floating - point number will always have digits before and after its decimal separator.
 //•	Number in a demon's name is considered everything that is a valid integer or floating point number (with dot '.' used as
 //separator). For example, all these are valid numbers: '4', ' + 4', ' - 4', '3.5', ' + 3.5', ' - 3.5'.
+            char[] separator = new[] { ' ', ',' };
             string[] input = Console.ReadLine()
-                    .Split(", ", StringSplitOptions.RemoveEmptyEntries);
-            string pattern = @"(?<health>[A-Za-z])|(?<damage>((\+|-)?\d+(\.\d+)?)|[/*])";
+                    .Split(separator, StringSplitOptions.RemoveEmptyEntries);
+            string pattern = @"(?<health>[^\d ,+\-*/.])|(?<damage>((\+|-)?\d+(\.\d+)?)|[/*])";
             Regex regex = new Regex(pattern);
             StringBuilder sbHealth= new StringBuilder();
             string name = string.Empty;
@@ -51,28 +52,39 @@ namespace _05._Nether_Realms
             {
                 MatchCollection lettersAndDigits = regex.Matches(entity);
                 List<string> damageList = new List<string>();
+                bool validFlag = true;
 
                 foreach (Match item in lettersAndDigits)
                 {
 
-                    name = entity;
                     string sign = item.Value;
                     bool check = char.TryParse(sign, out char temp);
                     if (check && ((temp >= 'A' && temp <= 'Z') || (temp >= 'a' && temp <= 'z')))
                     {
                         sbHealth.Append(sign);
                     }
+                    else if (check && (temp == ',' || temp == ' '))
+                    {
+                        sbHealth.Clear();
+                        damageList.Clear();
+                        validFlag = false;
+                        break;
+                    }
                     else
                     {
                         damageList.Add(sign);
                     }
                 }
-                healthString = sbHealth.ToString();
-                sbHealth.Clear();
-                int health = CalculateHealth(healthString);
-                double damage = CalculateDamage(damageList);
-                Demon demon = new Demon(name, health, damage);
-                listOFDemons.Add(demon);
+                if (validFlag)
+                {
+                    name = entity;
+                    healthString = sbHealth.ToString();
+                    sbHealth.Clear();
+                    int health = CalculateHealth(healthString);
+                    double damage = CalculateDamage(damageList);
+                    Demon demon = new Demon(name, health, damage);
+                    listOFDemons.Add(demon);
+                }
             }
 
             listOFDemons = listOFDemons.OrderBy(x => x.Name).ToList();
