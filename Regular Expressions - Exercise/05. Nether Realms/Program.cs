@@ -40,7 +40,7 @@ namespace _05._Nether_Realms
             char[] separator = new[] { ' ', ',' };
             string[] input = Console.ReadLine()
                     .Split(separator, StringSplitOptions.RemoveEmptyEntries);
-            string pattern = @"(?<health>[^\d ,+\-*/.])|(?<damage>((\+|-)?\d+(\.\d+)?)|[/*])";
+            string pattern = @"(?<health>[\!-\)\:-\~])|(?<damage>((\+|-)?\d+(\.\d+)?)|[\/\*])";
             Regex regex = new Regex(pattern);
             StringBuilder sbHealth= new StringBuilder();
             string name = string.Empty;
@@ -59,7 +59,7 @@ namespace _05._Nether_Realms
 
                     string sign = item.Value;
                     bool check = char.TryParse(sign, out char temp);
-                    if (check && ((temp >= 'A' && temp <= 'Z') || (temp >= 'a' && temp <= 'z')))
+                    if (check && ((temp >= '!' && temp <= ')') || (temp >= ':' && temp <= '~')))
                     {
                         sbHealth.Append(sign);
                     }
