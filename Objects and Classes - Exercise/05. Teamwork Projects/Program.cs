@@ -26,54 +26,51 @@ namespace _05._Teamwork_Projects
             //            -- { member}…"
             List<Team> teams = new List<Team>();
 
-            bool creator = false;
             int n = int.Parse(Console.ReadLine());
             for (int i = 0; i < n; i++)
             {
                 string[] input = Console.ReadLine()
                     .Split("-", StringSplitOptions.RemoveEmptyEntries);
-                string user = input[0];
+                string creator = input[0];
                 string teamName = input[1];
 
                 if (IsThisTeamExisting(teams, teamName))
                 {
                     Console.WriteLine($"Team {teamName} was already created!");
                 }
-                else if (DoesCreatorHaveATeam(teams, user))
+                else if (DoesCreatorHaveATeam(teams, creator))
                 {
-                    Console.WriteLine($"{user} cannot create another team!");
+                    Console.WriteLine($"{creator} cannot create another team!");
                 }
                 else
                 {
-                    creator = true;
-                    Team newTeam = new Team(teamName, user, creator);
+                    Team newTeam = new Team(teamName, creator);
                     teams.Add(newTeam);
-                    Console.WriteLine($"Team {teamName} has been created by {user}!");
+                    Console.WriteLine($"Team {teamName} has been created by {creator}!");
                 }
             }
-            creator = false;
             string inputString;
 
             while ((inputString = Console.ReadLine()) != "end of assignment")
             {
                 string[] input = inputString
                     .Split("->", StringSplitOptions.RemoveEmptyEntries);
-                string user = input[0];
+                string member = input[0];
                 string teamName = input[1];
 
                 if (!IsThisTeamExisting(teams, teamName))
                 {
                     Console.WriteLine($"Team {teamName} does not exist!");
                 }
-                else if (IsHeAMemberOfAnotherTeam(teams, user))
+                else if (IsHeAMemberOfAnotherTeam(teams, member))
                 {
-                    Console.WriteLine($"Member {user} cannot join team {teamName}!");
+                    Console.WriteLine($"Member {member} cannot join team {teamName}!");
                 }
                 else
                 {
                     Team joinTeam = teams
                         .First(x => x.TeamName == teamName);
-                    joinTeam.AddMember(user);
+                    joinTeam.AddMember(member);
                 }
             }
 
@@ -85,7 +82,7 @@ namespace _05._Teamwork_Projects
             foreach (var team in teamsWithMembers)
             {
                 Console.WriteLine(team.TeamName);
-                Console.WriteLine(team.Creator);
+                Console.WriteLine($"- {team.Creator}");
                 foreach (var user in team.Member.OrderBy(m => m))
                 {
                     Console.WriteLine($"-- {user}");
@@ -129,25 +126,20 @@ namespace _05._Teamwork_Projects
 
     public class Team
     {
-        public Team(string teamName, string user, bool creator)
+        private readonly List<string> members = new List<string>();
+        public Team(string teamName, string creator)
         {
-            TeamName = teamName;
-            if (creator)
-            {
-                Creator = user;
-            }
-            else
-            {
-                Member.Add(user);
-            }
+            this.TeamName = teamName;
+            this.Creator = creator;
 
         }
-        public string TeamName { get; set; }
-        public string Creator { get; set; }
-        public List<string> Member { get; set; }
+        public string TeamName { get; private set; }
+        public string Creator { get; private set; }
+        public List<string> Member
+            => this.members;
         public void AddMember(string user)
         {
-            Member.Add(user);
+            this.members.Add(user);
         }
     }
 }

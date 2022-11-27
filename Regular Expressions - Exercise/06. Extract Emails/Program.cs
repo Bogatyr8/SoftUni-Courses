@@ -20,7 +20,7 @@ namespace _06._Extract_Emails
 //info - bg@software - university.software.academy.
 //•	Examples of invalid emails: --123@gmail.com, …@mail.bg, .info @info.info, _steve @yahoo.cn, mike @helloworld,
 //mike@.unknown.soft., s.johnson @invalid-.
-            string pattern = @"(?<user>[A-Za-z0-9]+((\.|\-|_)[A-Za-z0-9]+)?)\@(?<host>[A-Za-z0-9]+((\.|\-)[A-Za-z0-9]+)?\.[A-Za-z0-9]+)";
+            string pattern = @"\s(?<user>[A-Za-z0-9]+([\.\-_]?[A-Za-z0-9]+)*?)\@(?<host>[A-Za-z0-9]+([\.\-]*[A-Za-z0-9]+)*\.[A-Za-z0-9]+)";
             string input = Console.ReadLine();
             Regex regex = new Regex(pattern);
             MatchCollection emailsList = regex.Matches(input);
