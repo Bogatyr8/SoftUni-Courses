@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Students", "04. Student
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Teamwork Projects", "05. Teamwork Projects\05. Teamwork Projects.csproj", "{6D92B09F-65A5-4B84-B1E8-5E6A6EBDB9EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Vehicle Catalogue", "06. Vehicle Catalogue\06. Vehicle Catalogue.csproj", "{086AA007-277A-424A-B0A5-F5AEF8FDD986}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Vehicle Catalogue", "06. Vehicle Catalogue\06. Vehicle Catalogue.csproj", "{086AA007-277A-424A-B0A5-F5AEF8FDD986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Order by Age", "07. Order by Age\07. Order by Age.csproj", "{8D1AFDFA-05D7-442D-B9D3-550859920838}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{086AA007-277A-424A-B0A5-F5AEF8FDD986}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{086AA007-277A-424A-B0A5-F5AEF8FDD986}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{086AA007-277A-424A-B0A5-F5AEF8FDD986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1AFDFA-05D7-442D-B9D3-550859920838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1AFDFA-05D7-442D-B9D3-550859920838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1AFDFA-05D7-442D-B9D3-550859920838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1AFDFA-05D7-442D-B9D3-550859920838}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -82,9 +82,18 @@ namespace _06._Vehicle_Catalogue
                 }
             }
 
-
-            Console.WriteLine($"Cars have average horsepower of: {cars.Average(c => c.HorsePower):f2}.");
-            Console.WriteLine($"Trucks have average horsepower of: {trucks.Average(t => t.HorsePower):f2}.");
+            double carsAverage = 0.0;
+            double trucksAverage = 0.0;
+            if (cars.Count > 0)
+            {
+                carsAverage = cars.Average(c => c.HorsePower);
+            }
+            if (trucks.Count > 0)
+            {
+                trucksAverage = trucks.Average(t => t.HorsePower);
+            }
+            Console.WriteLine($"Cars have average horsepower of: {carsAverage:f2}.");
+            Console.WriteLine($"Trucks have average horsepower of: {trucksAverage:f2}.");
         }
     }
 
