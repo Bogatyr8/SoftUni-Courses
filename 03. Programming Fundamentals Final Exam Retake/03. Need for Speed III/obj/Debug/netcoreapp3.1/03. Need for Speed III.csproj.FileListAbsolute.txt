@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\bin\Debug\netcoreapp3.1\03. Need for Speed III.exe
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\bin\Debug\netcoreapp3.1\03. Need for Speed III.deps.json
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\bin\Debug\netcoreapp3.1\03. Need for Speed III.runtimeconfig.json
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\bin\Debug\netcoreapp3.1\03. Need for Speed III.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\bin\Debug\netcoreapp3.1\03. Need for Speed III.dll
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\bin\Debug\netcoreapp3.1\03. Need for Speed III.pdb
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\obj\Debug\netcoreapp3.1\03. Need for Speed III.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\obj\Debug\netcoreapp3.1\03. Need for Speed III.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\obj\Debug\netcoreapp3.1\03. Need for Speed III.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\obj\Debug\netcoreapp3.1\03. Need for Speed III.AssemblyInfo.cs
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\obj\Debug\netcoreapp3.1\03. Need for Speed III.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\obj\Debug\netcoreapp3.1\03. Need for Speed III.dll
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\obj\Debug\netcoreapp3.1\03. Need for Speed III.pdb
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\03. Need for Speed III\obj\Debug\netcoreapp3.1\03. Need for Speed III.genruntimeconfig.cache
