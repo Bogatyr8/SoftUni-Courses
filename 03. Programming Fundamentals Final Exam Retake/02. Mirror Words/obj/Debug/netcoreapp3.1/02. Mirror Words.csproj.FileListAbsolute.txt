@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\bin\Debug\netcoreapp3.1\02. Mirror Words.exe
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\bin\Debug\netcoreapp3.1\02. Mirror Words.deps.json
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\bin\Debug\netcoreapp3.1\02. Mirror Words.runtimeconfig.json
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\bin\Debug\netcoreapp3.1\02. Mirror Words.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\bin\Debug\netcoreapp3.1\02. Mirror Words.dll
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\bin\Debug\netcoreapp3.1\02. Mirror Words.pdb
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\obj\Debug\netcoreapp3.1\02. Mirror Words.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\obj\Debug\netcoreapp3.1\02. Mirror Words.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\obj\Debug\netcoreapp3.1\02. Mirror Words.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\obj\Debug\netcoreapp3.1\02. Mirror Words.AssemblyInfo.cs
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\obj\Debug\netcoreapp3.1\02. Mirror Words.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\obj\Debug\netcoreapp3.1\02. Mirror Words.dll
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\obj\Debug\netcoreapp3.1\02. Mirror Words.pdb
+C:\CSharp\Fundamentals\03. Programming Fundamentals Final Exam Retake\02. Mirror Words\obj\Debug\netcoreapp3.1\02. Mirror Words.genruntimeconfig.cache
