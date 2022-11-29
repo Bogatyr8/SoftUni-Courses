@@ -32,7 +32,7 @@ namespace _02._Fancy_Barcodes
 //•	"Invalid barcode"
 //If the barcode is valid:
 //•	"Product group: {product group}"
-            string pattern = @"(@#+)(?<product>[A-Z][A-Za-z0-9]{4,}[A-Z])\1";
+            string pattern = @"^(@#+)(?<product>[A-Z]+[A-Za-z0-9]{4,}[A-Z]+)(@#+)$";
             Regex regex = new Regex(pattern);
             int n = int.Parse(Console.ReadLine());
 
