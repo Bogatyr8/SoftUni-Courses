@@ -102,7 +102,7 @@ namespace _03._Heroes_of_Code_and_Logic_VII
                     int damage = int.Parse(activity[2]);
                     string attacker = activity[3];
                     heroes[heroName][0] -= damage;
-                    if (heroes[heroName][0] >= 0)
+                    if (heroes[heroName][0] > 0)
                     {
                         Console.WriteLine($"{heroName} was hit for {damage} HP by {attacker} and now has {heroes[heroName][0]} HP left!");
                     }
