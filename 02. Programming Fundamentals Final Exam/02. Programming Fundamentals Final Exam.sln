@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. World Tour", "01. World
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Destination Mapper", "02. Destination Mapper\02. Destination Mapper.csproj", "{494A3E6E-5D53-413A-83B1-0E93008ABE94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Plant Discovery", "03. Plant Discovery\03. Plant Discovery.csproj", "{E1ACF599-2059-4EED-8DFD-58E5988B388B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{494A3E6E-5D53-413A-83B1-0E93008ABE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{494A3E6E-5D53-413A-83B1-0E93008ABE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{494A3E6E-5D53-413A-83B1-0E93008ABE94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1ACF599-2059-4EED-8DFD-58E5988B388B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1ACF599-2059-4EED-8DFD-58E5988B388B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1ACF599-2059-4EED-8DFD-58E5988B388B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1ACF599-2059-4EED-8DFD-58E5988B388B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace _02._Destination_Mapper
@@ -25,18 +26,11 @@ namespace _02._Destination_Mapper
             string pattern = @"(\=|\/)(?<destination>[A-Z][A-Za-z]{2,})\1";
             string input = Console.ReadLine();
             Regex regex = new Regex(pattern);
-            MatchCollection matches = regex.Matches(input);
-            List<string> destinations = new List<string>();
-            int travelPoints = 0;
-            foreach (Match place in matches)
-            {
-                string destination = place.Groups["destination"].Value;
-                destinations.Add(destination);
-                travelPoints += destination.Length;
-            }
 
-            Console.WriteLine($"Destinations: {string.Join(", ", destinations)}");
-            Console.WriteLine($"Travel Points: {travelPoints}");
+            MatchCollection destinations = regex.Matches(input);
+
+            Console.WriteLine($"Destinations: {String.Join(", ", destinations.Select(d => d.Groups["destination"].Value))}");
+            Console.WriteLine($"Travel Points: {destinations.Select(x => x.Groups["destination"].Value.Length).Sum()}");
         }
     }
 }
