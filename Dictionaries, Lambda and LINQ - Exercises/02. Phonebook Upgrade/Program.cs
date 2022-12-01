@@ -10,7 +10,7 @@ namespace _02._Phonebook_Upgrade
         {
             //Add functionality to the phonebook from the previous task to print all contacts ordered lexicographically when receive the
             //command “ListAll”.
-            SortedDictionary<string, string> users = new SortedDictionary<string, string>();
+            Dictionary<string, string> users = new Dictionary<string, string>();
             string inputString;
             while ((inputString = Console.ReadLine()) != "END")
             {
@@ -37,9 +37,10 @@ namespace _02._Phonebook_Upgrade
                 }
                 else if (command == "ListAll")
                 {
+                    users = users.OrderBy(u => u.Key).ToDictionary(x => x.Key, y => y.Value);
                     foreach (var item in users)
                     {
-                        Console.WriteLine($"{item.Key}<->{item.Value}");
+                        Console.WriteLine($"{item.Key} -> {item.Value}");
                     }
                 }
             }

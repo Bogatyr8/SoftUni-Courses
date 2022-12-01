@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\bin\Debug\netcoreapp3.1\04. Fix Emails.exe
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\bin\Debug\netcoreapp3.1\04. Fix Emails.deps.json
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\bin\Debug\netcoreapp3.1\04. Fix Emails.runtimeconfig.json
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\bin\Debug\netcoreapp3.1\04. Fix Emails.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\bin\Debug\netcoreapp3.1\04. Fix Emails.dll
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\bin\Debug\netcoreapp3.1\04. Fix Emails.pdb
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\obj\Debug\netcoreapp3.1\04. Fix Emails.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\obj\Debug\netcoreapp3.1\04. Fix Emails.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\obj\Debug\netcoreapp3.1\04. Fix Emails.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\obj\Debug\netcoreapp3.1\04. Fix Emails.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\obj\Debug\netcoreapp3.1\04. Fix Emails.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\obj\Debug\netcoreapp3.1\04. Fix Emails.dll
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\obj\Debug\netcoreapp3.1\04. Fix Emails.pdb
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\04. Fix Emails\obj\Debug\netcoreapp3.1\04. Fix Emails.genruntimeconfig.cache
