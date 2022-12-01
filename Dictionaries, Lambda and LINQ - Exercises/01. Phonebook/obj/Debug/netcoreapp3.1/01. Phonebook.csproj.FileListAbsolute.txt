@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\bin\Debug\netcoreapp3.1\01. Phonebook.exe
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\bin\Debug\netcoreapp3.1\01. Phonebook.deps.json
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\bin\Debug\netcoreapp3.1\01. Phonebook.runtimeconfig.json
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\bin\Debug\netcoreapp3.1\01. Phonebook.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\bin\Debug\netcoreapp3.1\01. Phonebook.dll
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\bin\Debug\netcoreapp3.1\01. Phonebook.pdb
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\obj\Debug\netcoreapp3.1\01. Phonebook.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\obj\Debug\netcoreapp3.1\01. Phonebook.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\obj\Debug\netcoreapp3.1\01. Phonebook.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\obj\Debug\netcoreapp3.1\01. Phonebook.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\obj\Debug\netcoreapp3.1\01. Phonebook.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\obj\Debug\netcoreapp3.1\01. Phonebook.dll
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\obj\Debug\netcoreapp3.1\01. Phonebook.pdb
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\01. Phonebook\obj\Debug\netcoreapp3.1\01. Phonebook.genruntimeconfig.cache
