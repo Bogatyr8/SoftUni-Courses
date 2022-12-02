@@ -41,15 +41,13 @@ namespace _06._User_Logs
 //•	The messages will be in the format: This &is &a & message
 //•	The username will be a string with length in the range[3..50]
 //•	Time limit: 0.3 sec.Memory limit: 16 MB.
-            string pattern = @"^IP=(?<ip>([A-F0-9]+(\.|\:))+[A-F0-9]+) (.+) user=(?<user>[ -~]+)$";
-            Regex regex = new Regex(pattern);
             SortedDictionary<string, Dictionary<string, int>> attackers = new SortedDictionary<string, Dictionary<string, int>>();
             string input;
             while ((input = Console.ReadLine()) != "end")
             {
-                Match match = regex.Match(input);
-                string ip = match.Groups["ip"].Value;
-                string user = match.Groups["user"].Value;
+                string[] cmdArgs = input.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                string ip = ExtractInfo(cmdArgs[0]);
+                string user = ExtractInfo(cmdArgs[2]);
                 if (!attackers.ContainsKey(user))
                 {
                     attackers[user] = new Dictionary<string, int>();
@@ -76,6 +74,13 @@ namespace _06._User_Logs
                 }
                 Console.WriteLine(".");
             }
+        }
+
+        public static string ExtractInfo(string input)
+        {
+            string result = input.Substring(input.IndexOf("=") + 1);
+
+            return result;
         }
     }
 }
