@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Activation Keys", "01. Activation Keys\01. Activation Keys.csproj", "{4219BF6B-016B-4AD4-8DE9-DBEA86487780}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Emoji Detector", "02. Emoji Detector\02. Emoji Detector.csproj", "{12F090A7-E786-4924-B6E4-96A8165098DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4219BF6B-016B-4AD4-8DE9-DBEA86487780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4219BF6B-016B-4AD4-8DE9-DBEA86487780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4219BF6B-016B-4AD4-8DE9-DBEA86487780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F090A7-E786-4924-B6E4-96A8165098DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F090A7-E786-4924-B6E4-96A8165098DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F090A7-E786-4924-B6E4-96A8165098DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F090A7-E786-4924-B6E4-96A8165098DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\bin\Debug\netcoreapp3.1\02. Emoji Detector.exe
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\bin\Debug\netcoreapp3.1\02. Emoji Detector.deps.json
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\bin\Debug\netcoreapp3.1\02. Emoji Detector.runtimeconfig.json
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\bin\Debug\netcoreapp3.1\02. Emoji Detector.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\bin\Debug\netcoreapp3.1\02. Emoji Detector.dll
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\bin\Debug\netcoreapp3.1\02. Emoji Detector.pdb
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\obj\Debug\netcoreapp3.1\02. Emoji Detector.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\obj\Debug\netcoreapp3.1\02. Emoji Detector.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\obj\Debug\netcoreapp3.1\02. Emoji Detector.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\obj\Debug\netcoreapp3.1\02. Emoji Detector.AssemblyInfo.cs
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\obj\Debug\netcoreapp3.1\02. Emoji Detector.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\obj\Debug\netcoreapp3.1\02. Emoji Detector.dll
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\obj\Debug\netcoreapp3.1\02. Emoji Detector.pdb
+C:\CSharp\Fundamentals\05. Programming Fundamentals Final Exam\02. Emoji Detector\obj\Debug\netcoreapp3.1\02. Emoji Detector.genruntimeconfig.cache
