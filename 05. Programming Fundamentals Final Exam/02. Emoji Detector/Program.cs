@@ -65,7 +65,7 @@ namespace _02._Emoji_Detector
                 .Where(e => SumOfChars(e) >= coolTreshold)
                 .ToList();
             Console.WriteLine($"Cool threshold: {coolTreshold}");
-            Console.WriteLine($"{mathesFound} emojis found in the text. \nThe cool ones are:");
+            Console.WriteLine($"{mathesFound} emojis found in the text. The cool ones are:");
             foreach (string emoji in emojies)
             {
                 Console.WriteLine(emoji);
