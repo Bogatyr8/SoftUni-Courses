@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\bin\Debug\netcoreapp3.1\02. Easter Eggs.exe
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\bin\Debug\netcoreapp3.1\02. Easter Eggs.deps.json
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\bin\Debug\netcoreapp3.1\02. Easter Eggs.runtimeconfig.json
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\bin\Debug\netcoreapp3.1\02. Easter Eggs.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\bin\Debug\netcoreapp3.1\02. Easter Eggs.dll
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\bin\Debug\netcoreapp3.1\02. Easter Eggs.pdb
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\obj\Debug\netcoreapp3.1\02. Easter Eggs.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\obj\Debug\netcoreapp3.1\02. Easter Eggs.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\obj\Debug\netcoreapp3.1\02. Easter Eggs.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\obj\Debug\netcoreapp3.1\02. Easter Eggs.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\obj\Debug\netcoreapp3.1\02. Easter Eggs.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\obj\Debug\netcoreapp3.1\02. Easter Eggs.dll
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\obj\Debug\netcoreapp3.1\02. Easter Eggs.pdb
+C:\CSharp\Fundamentals\Programming Fundamentals Final Exam - 4 December 2022\02. Easter Eggs\obj\Debug\netcoreapp3.1\02. Easter Eggs.genruntimeconfig.cache
