@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. User Logs", "06. User L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Population Counter", "07. Population Counter\07. Population Counter.csproj", "{518FDD95-07AD-439A-BCE3-BEB22A132ECA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Logs Aggregator", "08. Logs Aggregator\08. Logs Aggregator.csproj", "{23E59C9F-5EC3-4072-B559-9AB8E572434A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{518FDD95-07AD-439A-BCE3-BEB22A132ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{518FDD95-07AD-439A-BCE3-BEB22A132ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{518FDD95-07AD-439A-BCE3-BEB22A132ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E59C9F-5EC3-4072-B559-9AB8E572434A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E59C9F-5EC3-4072-B559-9AB8E572434A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E59C9F-5EC3-4072-B559-9AB8E572434A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E59C9F-5EC3-4072-B559-9AB8E572434A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

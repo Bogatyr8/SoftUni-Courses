@@ -46,10 +46,11 @@ namespace _07._Population_Counter
                 }
                 CheckAndCreateCityEntry(populationData, city, country, population);
             }
-            Dictionary<string, Dictionary<string, long>> populationDataSorted = new Dictionary<string, Dictionary<string, long>>();
-            populationDataSorted = populationData.OrderByDescending(c => c.Value.Select(t => t.Value).Sum()).ToDictionary(x =>x.Key, y =>y.Value);
+            populationData = populationData
+                .OrderByDescending(c => c.Value.Select(t => t.Value).Sum())
+                .ToDictionary(x => x.Key, y => y.Value);
 
-            foreach (var land in populationDataSorted)
+            foreach (var land in populationData)
             {
                 long countryPopulation = land.Value.Sum(x => x.Value);
                 Console.WriteLine($"{land.Key} (total population: {countryPopulation})");
