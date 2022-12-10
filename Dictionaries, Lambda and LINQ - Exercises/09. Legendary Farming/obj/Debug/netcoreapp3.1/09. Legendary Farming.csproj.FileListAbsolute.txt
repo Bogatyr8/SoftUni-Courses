@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\bin\Debug\netcoreapp3.1\09. Legendary Farming.exe
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\bin\Debug\netcoreapp3.1\09. Legendary Farming.deps.json
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\bin\Debug\netcoreapp3.1\09. Legendary Farming.runtimeconfig.json
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\bin\Debug\netcoreapp3.1\09. Legendary Farming.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\bin\Debug\netcoreapp3.1\09. Legendary Farming.dll
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\bin\Debug\netcoreapp3.1\09. Legendary Farming.pdb
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\obj\Debug\netcoreapp3.1\09. Legendary Farming.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\obj\Debug\netcoreapp3.1\09. Legendary Farming.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\obj\Debug\netcoreapp3.1\09. Legendary Farming.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\obj\Debug\netcoreapp3.1\09. Legendary Farming.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\obj\Debug\netcoreapp3.1\09. Legendary Farming.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\obj\Debug\netcoreapp3.1\09. Legendary Farming.dll
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\obj\Debug\netcoreapp3.1\09. Legendary Farming.pdb
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\09. Legendary Farming\obj\Debug\netcoreapp3.1\09. Legendary Farming.genruntimeconfig.cache

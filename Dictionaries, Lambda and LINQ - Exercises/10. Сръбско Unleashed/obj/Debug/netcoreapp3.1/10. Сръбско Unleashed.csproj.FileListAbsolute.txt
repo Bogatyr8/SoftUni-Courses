@@ -1,0 +1,14 @@
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\bin\Debug\netcoreapp3.1\10. Сръбско Unleashed.exe
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\bin\Debug\netcoreapp3.1\10. Сръбско Unleashed.deps.json
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\bin\Debug\netcoreapp3.1\10. Сръбско Unleashed.runtimeconfig.json
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\bin\Debug\netcoreapp3.1\10. Сръбско Unleashed.runtimeconfig.dev.json
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\bin\Debug\netcoreapp3.1\10. Сръбско Unleashed.dll
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\bin\Debug\netcoreapp3.1\10. Сръбско Unleashed.pdb
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\obj\Debug\netcoreapp3.1\10. Сръбско Unleashed.csproj.AssemblyReference.cache
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\obj\Debug\netcoreapp3.1\10. Сръбско Unleashed.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\obj\Debug\netcoreapp3.1\10. Сръбско Unleashed.AssemblyInfoInputs.cache
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\obj\Debug\netcoreapp3.1\10. Сръбско Unleashed.AssemblyInfo.cs
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\obj\Debug\netcoreapp3.1\10. Сръбско Unleashed.csproj.CoreCompileInputs.cache
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\obj\Debug\netcoreapp3.1\10. Сръбско Unleashed.dll
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\obj\Debug\netcoreapp3.1\10. Сръбско Unleashed.pdb
+C:\CSharp\Fundamentals\Dictionaries, Lambda and LINQ - Exercises\10. Сръбско Unleashed\obj\Debug\netcoreapp3.1\10. Сръбско Unleashed.genruntimeconfig.cache
