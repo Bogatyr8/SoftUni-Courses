@@ -28,7 +28,7 @@ namespace _10._Сръбско_Unleashed
 //•	The ticket count will be an integer in the range[0 … 100 000]
 //•	Singers and venues are case sensitive
 //•	Allowed working time for your program: 0.1 seconds.Allowed memory: 16 MB.
-            string pattern = @"(?<singer>([A-Z][a-z]+ ){1,3})@(?<venue>([A-Z][a-z]+ ){1,3})(?<ticketPrice1>\d+)([.,](?<ticketPrice2>\d+))? (?<ticketCount>\d+)";
+            string pattern = @"(?<singer>(\w+ ){1,3})@(?<venue>(\w+ ){1,3})(?<ticketPrice1>\d+)([.,](?<ticketPrice2>\d+))? (?<ticketCount>\d+)";
             Regex regex = new Regex(pattern);
             Dictionary<string, Dictionary<string, decimal>> venues = 
                 new Dictionary<string, Dictionary<string, decimal>>();
