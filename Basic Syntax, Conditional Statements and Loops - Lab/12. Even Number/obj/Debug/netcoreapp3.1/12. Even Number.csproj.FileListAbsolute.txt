@@ -1,5 +1,0 @@
-C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\12. Even Number\obj\Debug\netcoreapp3.1\12. Even Number.csproj.AssemblyReference.cache
-C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\12. Even Number\obj\Debug\netcoreapp3.1\12. Even Number.GeneratedMSBuildEditorConfig.editorconfig
-C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\12. Even Number\obj\Debug\netcoreapp3.1\12. Even Number.AssemblyInfoInputs.cache
-C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\12. Even Number\obj\Debug\netcoreapp3.1\12. Even Number.AssemblyInfo.cs
-C:\CSharp\Fundamentals\Basic Syntax, Conditional Statements and Loops - Lab\12. Even Number\obj\Debug\netcoreapp3.1\12. Even Number.csproj.CoreCompileInputs.cache
