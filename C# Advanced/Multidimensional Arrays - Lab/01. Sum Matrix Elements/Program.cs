@@ -1,8 +1,7 @@
-﻿using System;
-using System.Linq;
-
-namespace _01._Sum_Matrix_Elements
+﻿namespace _01._Sum_Matrix_Elements
 {
+    using System;
+    using System.Linq;
     class Program
     {
         static void Main(string[] args)
