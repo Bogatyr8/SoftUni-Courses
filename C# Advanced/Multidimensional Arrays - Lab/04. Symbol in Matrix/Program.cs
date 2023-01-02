@@ -1,7 +1,6 @@
 ﻿namespace _04._Symbol_in_Matrix
 {
     using System;
-    using System.Linq;
     class Program
     {
         static void Main(string[] args)
