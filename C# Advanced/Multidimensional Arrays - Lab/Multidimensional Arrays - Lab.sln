@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Primary Diagonal", "03.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Square With Maximum Sum", "05. Square With Maximum Sum\05. Square With Maximum Sum.csproj", "{DA047AF2-085A-4E8A-BF74-7DA22FA433C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Jagged-Array Modification", "6. Jagged-Array Modification\6. Jagged-Array Modification.csproj", "{87B80686-83F2-41FB-B977-38BF68FA619D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DA047AF2-085A-4E8A-BF74-7DA22FA433C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA047AF2-085A-4E8A-BF74-7DA22FA433C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA047AF2-085A-4E8A-BF74-7DA22FA433C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B80686-83F2-41FB-B977-38BF68FA619D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B80686-83F2-41FB-B977-38BF68FA619D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B80686-83F2-41FB-B977-38BF68FA619D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B80686-83F2-41FB-B977-38BF68FA619D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
