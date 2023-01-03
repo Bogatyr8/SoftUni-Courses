@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_6._Jagged_Array_Modification</RootNamespace>
+    <RootNamespace>_06._Jagged_Array_Modification</RootNamespace>
   </PropertyGroup>
 
 </Project>
