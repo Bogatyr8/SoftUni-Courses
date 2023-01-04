@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_3._Maximal_Sum</RootNamespace>
+    <RootNamespace>_05._Snake_Moves</RootNamespace>
   </PropertyGroup>
 
 </Project>

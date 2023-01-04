@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Squares in Matrix", "02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Diagonal Difference", "01. Diagonal Difference\01. Diagonal Difference.csproj", "{546DE98F-3DDE-48BF-A993-58CBA742E3DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Snake Moves", "05. Snake Moves\05. Snake Moves.csproj", "{AB7C74B8-4A16-4445-8DCB-5B4E54E690C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{546DE98F-3DDE-48BF-A993-58CBA742E3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{546DE98F-3DDE-48BF-A993-58CBA742E3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{546DE98F-3DDE-48BF-A993-58CBA742E3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7C74B8-4A16-4445-8DCB-5B4E54E690C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7C74B8-4A16-4445-8DCB-5B4E54E690C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7C74B8-4A16-4445-8DCB-5B4E54E690C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7C74B8-4A16-4445-8DCB-5B4E54E690C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
