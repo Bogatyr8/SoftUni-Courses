@@ -1,7 +1,6 @@
-﻿using System;
-
-namespace _05._Snake_Moves
+﻿namespace _05._Snake_Moves
 {
+    using System;
     class Program
     {
         static void Main(string[] args)

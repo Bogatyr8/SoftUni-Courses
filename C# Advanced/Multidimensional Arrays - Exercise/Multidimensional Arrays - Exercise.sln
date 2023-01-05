@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Matrix Shuffling", "04. Matrix Shuffling\04. Matrix Shuffling.csproj", "{9AD3B822-1500-4BB0-96AB-E5E13E3D6807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Matrix Shuffling", "04. Matrix Shuffling\04. Matrix Shuffling.csproj", "{9AD3B822-1500-4BB0-96AB-E5E13E3D6807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Maximal Sum", "03. Maximal Sum\03. Maximal Sum.csproj", "{03816534-157F-42EC-B11D-9B1D5D9CDF55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Maximal Sum", "03. Maximal Sum\03. Maximal Sum.csproj", "{03816534-157F-42EC-B11D-9B1D5D9CDF55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Squares in Matrix", "02. Squares in Matrix\02. Squares in Matrix.csproj", "{A12D3BBB-63E9-4E97-8D3F-E7D2841F0931}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Squares in Matrix", "02. Squares in Matrix\02. Squares in Matrix.csproj", "{A12D3BBB-63E9-4E97-8D3F-E7D2841F0931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Diagonal Difference", "01. Diagonal Difference\01. Diagonal Difference.csproj", "{546DE98F-3DDE-48BF-A993-58CBA742E3DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Diagonal Difference", "01. Diagonal Difference\01. Diagonal Difference.csproj", "{546DE98F-3DDE-48BF-A993-58CBA742E3DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Snake Moves", "05. Snake Moves\05. Snake Moves.csproj", "{AB7C74B8-4A16-4445-8DCB-5B4E54E690C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Snake Moves", "05. Snake Moves\05. Snake Moves.csproj", "{AB7C74B8-4A16-4445-8DCB-5B4E54E690C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Jagged Array Manipulator", "6. Jagged Array Manipulator\6. Jagged Array Manipulator.csproj", "{E1BEC17B-5977-4EFC-B95D-8D6E61592D42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{AB7C74B8-4A16-4445-8DCB-5B4E54E690C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB7C74B8-4A16-4445-8DCB-5B4E54E690C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB7C74B8-4A16-4445-8DCB-5B4E54E690C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1BEC17B-5977-4EFC-B95D-8D6E61592D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1BEC17B-5977-4EFC-B95D-8D6E61592D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1BEC17B-5977-4EFC-B95D-8D6E61592D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1BEC17B-5977-4EFC-B95D-8D6E61592D42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
