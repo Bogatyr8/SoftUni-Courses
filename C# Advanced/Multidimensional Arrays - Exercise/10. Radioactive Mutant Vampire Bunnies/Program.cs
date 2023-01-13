@@ -87,7 +87,6 @@
                             {
                                 deadInGame = true;
                                 matrix[r - 1, c] = 'T';
-                                return;
                             }
                             matrix[r - 1, c] = 'T';
                         }
@@ -97,7 +96,6 @@
                             {
                                 deadInGame = true;
                                 matrix[r, c + 1] = 'T';
-                                return;
                             }
                             matrix[r, c + 1] = 'T';
                         }
@@ -107,7 +105,6 @@
                             {
                                 deadInGame = true;
                                 matrix[r + 1, c] = 'T';
-                                return;
                             }
                             matrix[r + 1, c] = 'T';
                         }
@@ -117,7 +114,6 @@
                             {
                                 deadInGame = true;
                                 matrix[r, c - 1] = 'T';
-                                return;
                             }
                             matrix[r, c - 1] = 'T';
                         }
