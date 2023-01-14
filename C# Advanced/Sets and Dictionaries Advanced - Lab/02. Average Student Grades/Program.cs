@@ -23,9 +23,21 @@
                 students[name].Add(value);
             }
 
+            //foreach (var item in students)
+            //{
+            //    Console.WriteLine($"{item.Key} -> {String.Join(" ", item.Value):f2} (avg: {item.Value.Average():f2})");
+            //}
+
             foreach (var item in students)
             {
-                Console.WriteLine($"{item.Key} -> {String.Join(" ", item.Value)} (avg: {item.Value.Average():f2})");
+                Console.Write($"{item.Key} -> ");
+
+                foreach (decimal grade in item.Value)
+                {
+                    Console.Write($"{grade:f2} ");
+                }
+
+                Console.WriteLine($"(avg: {item.Value.Average():f2})");
             }
         }
     }
