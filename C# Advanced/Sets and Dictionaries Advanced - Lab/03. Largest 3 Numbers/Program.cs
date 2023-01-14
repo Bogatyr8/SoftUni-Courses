@@ -18,10 +18,17 @@
                 .Select(x => int.Parse(x))
                 .ToArray();
 
-            int[] sorted = input.OrderByDescending(x => x).ToArray();
-            for (int i = 0; i < 3; i++)
+            if (input.Length >= 3)
             {
-                Console.Write($"{sorted[i]} ");
+                int[] sorted = input.OrderByDescending(x => x).ToArray();
+                for (int i = 0; i < 3; i++)
+                {
+                    Console.Write($"{sorted[i]} ");
+                }
+            }
+            else
+            {
+                Console.WriteLine(String.Join(" ", input));
             }
         }
     }
