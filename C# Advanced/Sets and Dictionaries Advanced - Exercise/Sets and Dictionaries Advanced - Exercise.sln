@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Even Times", "04. Even 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Count Symbols", "05. Count Symbols\05. Count Symbols.csproj", "{AD3540EE-1547-41A2-96C2-A8AEDED14363}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Wardrobe", "06. Wardrobe\06. Wardrobe.csproj", "{3004775D-A622-4922-AC4D-E3A157021D11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AD3540EE-1547-41A2-96C2-A8AEDED14363}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD3540EE-1547-41A2-96C2-A8AEDED14363}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD3540EE-1547-41A2-96C2-A8AEDED14363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3004775D-A622-4922-AC4D-E3A157021D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3004775D-A622-4922-AC4D-E3A157021D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3004775D-A622-4922-AC4D-E3A157021D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3004775D-A622-4922-AC4D-E3A157021D11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
