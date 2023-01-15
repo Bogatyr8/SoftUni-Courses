@@ -12,6 +12,10 @@
 //The input will be a string in the format: "direction, carNumber".You will be receiving
 //commands until the "END" command is given.
 //Print the car numbers of the cars, which are still in the parking lot:
+//Hints
+//•	Car numbers are unique.
+//•	Before printing, first check if the set has any elements.
+
             HashSet<string> parkingLot = new HashSet<string>();
             string input;
             while ((input = Console.ReadLine()) != "END")
