@@ -13,7 +13,7 @@
             {
                 names.Add(Console.ReadLine());
             }
-            Console.WriteLine("===================");
+
             foreach (var name in names)
             {
                 Console.WriteLine(name);
