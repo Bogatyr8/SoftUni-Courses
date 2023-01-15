@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Unique Usernames", "01.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Sets of Elements", "02. Sets of Elements\02. Sets of Elements.csproj", "{D4A60F4C-7C4F-442C-B92C-F56296B288F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Periodic Table", "03. Periodic Table\03. Periodic Table.csproj", "{15F8CC62-9D33-47D6-AEEA-ADCE70EF658E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D4A60F4C-7C4F-442C-B92C-F56296B288F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4A60F4C-7C4F-442C-B92C-F56296B288F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4A60F4C-7C4F-442C-B92C-F56296B288F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F8CC62-9D33-47D6-AEEA-ADCE70EF658E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F8CC62-9D33-47D6-AEEA-ADCE70EF658E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F8CC62-9D33-47D6-AEEA-ADCE70EF658E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F8CC62-9D33-47D6-AEEA-ADCE70EF658E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
