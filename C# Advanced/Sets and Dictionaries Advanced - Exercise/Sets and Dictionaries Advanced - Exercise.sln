@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Wardrobe", "06. Wardrob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. The V-Logger", "07. The V-Logger\07. The V-Logger.csproj", "{59A64E48-79DD-49B6-8EB9-1830855411FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Ranking", "08. Ranking\08. Ranking.csproj", "{2ED206F8-1E10-4BFA-B611-67C5875A51E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{59A64E48-79DD-49B6-8EB9-1830855411FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59A64E48-79DD-49B6-8EB9-1830855411FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59A64E48-79DD-49B6-8EB9-1830855411FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED206F8-1E10-4BFA-B611-67C5875A51E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED206F8-1E10-4BFA-B611-67C5875A51E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED206F8-1E10-4BFA-B611-67C5875A51E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED206F8-1E10-4BFA-B611-67C5875A51E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
