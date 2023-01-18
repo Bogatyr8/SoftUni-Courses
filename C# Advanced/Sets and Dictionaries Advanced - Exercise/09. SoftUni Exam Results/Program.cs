@@ -84,33 +84,33 @@
             {
                 string[] input = inputLine.Split("-", StringSplitOptions.RemoveEmptyEntries);
                 string name = input[0];
-                if (input.Length == 3)
-                {
-                    string language = input[1];
-                    int score = int.Parse(input[2]);
-                    if (!languages.ContainsKey(language))
-                    {
-                        languages.Add(language, 0);
-                    }
-                    languages[language]++;
 
-                    if (!students.ContainsKey(name))
-                    {
-                        students.Add(name, new Student(name));
-                    }
-                    if (!students[name].ScoreInLanguages.ContainsKey(language))
-                    {
-                        students[name].ScoreInLanguages.Add(language, 0);
-                    }
-                    students[name].ScoreInLanguages[language] = score;
-                }
-                else if (input.Length == 2)
+                if (input[1] == "banned")
                 {
                     if (students.ContainsKey(name))
                     {
                         students.Remove(name);
                     }
+                    continue;
                 }
+
+                string language = input[1];
+                int score = int.Parse(input[2]);
+                if (!languages.ContainsKey(language))
+                {
+                    languages.Add(language, 0);
+                }
+                languages[language]++;
+
+                if (!students.ContainsKey(name))
+                {
+                    students.Add(name, new Student(name));
+                }
+                if (!students[name].ScoreInLanguages.ContainsKey(language))
+                {
+                    students[name].ScoreInLanguages.Add(language, 0);
+                }
+                students[name].ScoreInLanguages[language] = score;
             }
         }
     }
@@ -124,16 +124,6 @@
         }
         public string Name { get; set; }
         public Dictionary<string, int> ScoreInLanguages { get; set; }
-
-        public void AddLanguage(string language, int score)
-        {
-            if (ScoreInLanguages.ContainsKey(language))
-            {
-                ScoreInLanguages.Add(language, 0);
-            }
-
-            ScoreInLanguages[language] += score;
-        }
 
         public int ScoreMax()
         {
