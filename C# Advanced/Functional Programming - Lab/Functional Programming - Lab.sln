@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sort Even Numbers", "01. Sort Even Numbers\01. Sort Even Numbers.csproj", "{858A708A-E61E-414B-A7A8-29FE6F1A15EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Sort Even Numbers", "01. Sort Even Numbers\01. Sort Even Numbers.csproj", "{858A708A-E61E-414B-A7A8-29FE6F1A15EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Sum Numbers", "02. Sum Numbers\02. Sum Numbers.csproj", "{EE0C51F8-AFD0-4039-9468-2BFFBE1C20F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Sum Numbers", "02. Sum Numbers\02. Sum Numbers.csproj", "{EE0C51F8-AFD0-4039-9468-2BFFBE1C20F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Count Uppercase Words", "03. Count Uppercase Words\03. Count Uppercase Words.csproj", "{2D8D8C16-7E29-44C1-AAB8-52C0D0E63E08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Count Uppercase Words", "03. Count Uppercase Words\03. Count Uppercase Words.csproj", "{2D8D8C16-7E29-44C1-AAB8-52C0D0E63E08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Add VAT", "04. Add VAT\04. Add VAT.csproj", "{D9651788-7A35-46D2-BC8B-E2CEBB1D8611}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Add VAT", "04. Add VAT\04. Add VAT.csproj", "{D9651788-7A35-46D2-BC8B-E2CEBB1D8611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Filter By Age", "05. Filter By Age\05. Filter By Age.csproj", "{19BA7517-B365-4217-8434-D7733908417C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D9651788-7A35-46D2-BC8B-E2CEBB1D8611}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9651788-7A35-46D2-BC8B-E2CEBB1D8611}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9651788-7A35-46D2-BC8B-E2CEBB1D8611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BA7517-B365-4217-8434-D7733908417C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BA7517-B365-4217-8434-D7733908417C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BA7517-B365-4217-8434-D7733908417C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BA7517-B365-4217-8434-D7733908417C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
