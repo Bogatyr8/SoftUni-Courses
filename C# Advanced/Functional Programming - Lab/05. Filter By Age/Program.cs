@@ -2,6 +2,8 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Linq;
+
     class Program
     {
         static void Main(string[] args)
@@ -11,6 +13,10 @@
             string filterType = Console.ReadLine();
             int filterValue = int.Parse(Console.ReadLine());
             string printType = Console.ReadLine();
+            Func<Person, int, bool> filter = CreateFilter(filterType);
+            people = people.Where(p => filter(p, filterValue)).ToList();
+            Action<Person> printer = GetPrinter(printType);
+            people.ForEach(printer);
         }
 
         private static void ReadPeople(List<Person> people)
@@ -21,20 +27,40 @@
                 string[] input = Console.ReadLine()
                     .Split(", ", StringSplitOptions.RemoveEmptyEntries);
                 string name = input[0];
-                int age = int.Parse(input[0]);
+                int age = int.Parse(input[1]);
                 people.Add(new Person() { Name = name, Age = age });
             }
         }
 
-        Func<Person, int, bool> CreateFilter(string filterType)
+        private static Action<Person> GetPrinter(string printType)
         {
-            if (filterType == "younger")
+            if (printType == "name")
             {
-                return (p, value) => p.Age < value;
+                return s => Console.WriteLine(s.Name);
+            }
+            else if (printType == "age")
+            {
+                return s => Console.WriteLine(s.Age);
+            }
+            else if (printType == "name age")
+            {
+                return s => Console.WriteLine($"{s.Name} - {s.Age}");
             }
             else
             {
-                return (p, value) => p.Age >= value;
+                return null;
+            }
+        }
+
+        private static Func<Person, int, bool> CreateFilter(string filterType)
+        {
+            if (filterType == "younger")
+            {
+                return (Person p, int value) => p.Age < value;
+            }
+            else
+            {
+                return (Person p, int value) => p.Age >= value;
             }
         }
     }
