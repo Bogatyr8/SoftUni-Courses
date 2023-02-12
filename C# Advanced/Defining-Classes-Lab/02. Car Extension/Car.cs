@@ -42,7 +42,7 @@ namespace CarManufacturer
             sb.AppendLine($"Year: {this.Year}");
             sb.AppendLine($"Fuel: {this.FuelQuantity:F2}");
 
-            return sb.ToString();
+            return sb.ToString().Trim();
         }
     }
 }
