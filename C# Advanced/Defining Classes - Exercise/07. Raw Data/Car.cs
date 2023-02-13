@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 //initializes the model and its inner components (engine, cargo and tires).
 namespace CarClasses
 {
-    internal class Car
+    public class Car
     {
         private string model;
         private List<Tire> tires;

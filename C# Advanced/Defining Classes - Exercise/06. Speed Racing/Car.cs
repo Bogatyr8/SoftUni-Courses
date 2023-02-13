@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarClasses
 {
-    internal class Car
+    public class Car
     {
         private string model;
         private double fuelAmount;

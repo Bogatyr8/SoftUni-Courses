@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 //Color: a string property, it is optional
 namespace CarClasses
 {
-    internal class Car
+    public class Car
     {
         private string model;
         private Engine engine = new();

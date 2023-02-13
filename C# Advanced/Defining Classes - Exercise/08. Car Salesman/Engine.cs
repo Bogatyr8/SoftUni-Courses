@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 //Efficiency: a string property, it is optional
 namespace CarClasses
 {
-    internal class Engine
+    public class Engine
     {
         private string model;
         private int power;
