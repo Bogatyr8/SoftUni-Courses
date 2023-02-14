@@ -10,7 +10,6 @@
 //Print the count of elements that are larger than the value of the given element.
 
 using GenericCountMethodString;
-using System.Diagnostics.Metrics;
 
 Box<string> box = new();
 
