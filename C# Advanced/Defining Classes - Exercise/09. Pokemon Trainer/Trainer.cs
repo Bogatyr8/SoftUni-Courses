@@ -3,10 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//Trainers have:
-//Name
-//Number of badges
-//A collection of pokemon
+
 namespace PokemonTrainer
 {
     public class Trainer
@@ -46,7 +43,7 @@ namespace PokemonTrainer
             List<Pokemon> matchingPokemons = this.collection.Where(p => p.Element == element).ToList();
             if (matchingPokemons.Count != 0)
             {
-                this.Badges += matchingPokemons.Count;
+                this.Badges++;
             }
             else
             {

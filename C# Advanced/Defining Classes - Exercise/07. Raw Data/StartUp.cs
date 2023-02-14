@@ -68,11 +68,15 @@ public class StartUp
 
         if (search == "fragile")
         {
-            carList = carList.Where(c => c.SoftTire()).ToList();
+            carList = carList
+                .Where(c => c.Cargo.Type == "fragile" && c.SoftTire())
+                .ToList();
         }
         else
         {
-            carList = carList.Where(c => c.PowerfulEngine()).ToList();
+            carList = carList
+                .Where(c => c.Cargo.Type == "flammable" && c.PowerfulEngine())
+                .ToList();
         }
 
         foreach (Car car in carList)
