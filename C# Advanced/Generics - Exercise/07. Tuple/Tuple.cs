@@ -14,3 +14,5 @@ public class CustomTuple<T1, T2>
     public override string ToString()
     {
         return $"{Item1} -> {Item2}";
+    }
+}
