@@ -18,9 +18,9 @@ namespace _02._Help_A_Mole
             {
                 mole.Move(command);
 
-                Console.WriteLine();
-                field.RefreshMatrix(theField);
-                Console.WriteLine(field.PrintMatrix());
+                //Console.WriteLine();
+                //field.RefreshMatrix(theField);
+                //Console.WriteLine(field.PrintMatrix());
                 if (mole.Score >= 25)
                 {
                     break;
@@ -162,7 +162,7 @@ namespace _02._Help_A_Mole
                 MoleCol = S2Col;
                 Score -= 3;
             }
-            if (MoleRow == S2Row && 
+            else if (MoleRow == S2Row && 
                 MoleCol == S2Col && 
                 MoleField[MoleRow, MoleCol] == 'S')
             {
