@@ -8,11 +8,12 @@ namespace NeedForSpeed
 {
     public class Car : Vehicle
     {
+        private const double DefaultFuelConsumption = 3;
         public Car(int horsePower, double fuel) : base(horsePower, fuel)
         {
 
         }
-        public override double FuelConsumption => 3;
+        public override double FuelConsumption => DefaultFuelConsumption;
         public virtual void Drive(double kilometres)
         => Fuel -= kilometres * this.FuelConsumption;
     }
