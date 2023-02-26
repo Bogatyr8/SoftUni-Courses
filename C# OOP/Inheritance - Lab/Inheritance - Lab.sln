@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Hierarchical Inheritanc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Random List", "04. Random List\04. Random List.csproj", "{CFCE267F-3734-4D6A-BB49-12C3271B7889}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Stack of Strings", "05. Stack of Strings\05. Stack of Strings.csproj", "{3A5C1743-5E0D-4724-812F-93E3A3D44B8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CFCE267F-3734-4D6A-BB49-12C3271B7889}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFCE267F-3734-4D6A-BB49-12C3271B7889}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFCE267F-3734-4D6A-BB49-12C3271B7889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5C1743-5E0D-4724-812F-93E3A3D44B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5C1743-5E0D-4724-812F-93E3A3D44B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5C1743-5E0D-4724-812F-93E3A3D44B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5C1743-5E0D-4724-812F-93E3A3D44B8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
