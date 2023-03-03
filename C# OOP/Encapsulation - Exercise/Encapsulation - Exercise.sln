@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Class Box Data", "01. Class Box Data\01. Class Box Data.csproj", "{09D8CAD6-DDA2-4754-8BB6-9F311EE7BB98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Animal Farm", "02. Animal Farm\02. Animal Farm.csproj", "{F155F6C7-EE2F-47DE-93D1-5CB8837933E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Shopping Spree", "03. Shopping Spree\03. Shopping Spree.csproj", "{3CFFE81B-B319-4305-880E-C92A78CE684E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{09D8CAD6-DDA2-4754-8BB6-9F311EE7BB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09D8CAD6-DDA2-4754-8BB6-9F311EE7BB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09D8CAD6-DDA2-4754-8BB6-9F311EE7BB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F155F6C7-EE2F-47DE-93D1-5CB8837933E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F155F6C7-EE2F-47DE-93D1-5CB8837933E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F155F6C7-EE2F-47DE-93D1-5CB8837933E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F155F6C7-EE2F-47DE-93D1-5CB8837933E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFFE81B-B319-4305-880E-C92A78CE684E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFFE81B-B319-4305-880E-C92A78CE684E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFFE81B-B319-4305-880E-C92A78CE684E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFFE81B-B319-4305-880E-C92A78CE684E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
