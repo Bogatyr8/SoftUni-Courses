@@ -3,6 +3,8 @@ using PizzaCalories.Models;
 
 try
 {
+
+    //missing name should throw custom exception - not using RemoveEmptyEntries
     string[] pizzaTokens = Console.ReadLine()
         .Split(" ");
     string[] doughTokens = Console.ReadLine()

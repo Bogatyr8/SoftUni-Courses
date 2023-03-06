@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Class Box Data", "01. Class Box Data\01. Class Box Data.csproj", "{09D8CAD6-DDA2-4754-8BB6-9F311EE7BB98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Class Box Data", "01. Class Box Data\01. Class Box Data.csproj", "{09D8CAD6-DDA2-4754-8BB6-9F311EE7BB98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Animal Farm", "02. Animal Farm\02. Animal Farm.csproj", "{F155F6C7-EE2F-47DE-93D1-5CB8837933E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Animal Farm", "02. Animal Farm\02. Animal Farm.csproj", "{F155F6C7-EE2F-47DE-93D1-5CB8837933E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Shopping Spree", "03. Shopping Spree\03. Shopping Spree.csproj", "{3CFFE81B-B319-4305-880E-C92A78CE684E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Shopping Spree", "03. Shopping Spree\03. Shopping Spree.csproj", "{3CFFE81B-B319-4305-880E-C92A78CE684E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Pizza Calories", "04. Pizza Calories\04. Pizza Calories.csproj", "{9BC41826-1505-446F-8557-06CA25121DEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Pizza Calories", "04. Pizza Calories\04. Pizza Calories.csproj", "{9BC41826-1505-446F-8557-06CA25121DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Football Team Generator", "05. Football Team Generator\05. Football Team Generator.csproj", "{18CFFF23-C309-472E-98A9-96FE507DC3D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9BC41826-1505-446F-8557-06CA25121DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BC41826-1505-446F-8557-06CA25121DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BC41826-1505-446F-8557-06CA25121DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CFFF23-C309-472E-98A9-96FE507DC3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CFFF23-C309-472E-98A9-96FE507DC3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CFFF23-C309-472E-98A9-96FE507DC3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CFFF23-C309-472E-98A9-96FE507DC3D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
